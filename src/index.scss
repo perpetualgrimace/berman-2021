@@ -1,3 +1,75 @@
-body {
-  margin: 50px;
-}
+// utilities
+@import "scss/1_utils/variables";
+@import "scss/1_utils/functions";
+@import "scss/1_utils/mixins";
+@import "scss/1_utils/utility-classes";
+
+// vendor
+@import "scss/2_vendor/jf-grid";
+@import "scss/2_vendor/bxslider";
+
+// base
+@import "scss/3_base/reset";
+@import "scss/3_base/typography";
+@import "scss/3_base/vertical-margins";
+
+// theme
+@import "scss/4_theme/theme";
+
+// layout
+@import "scss/5_layout/layout";
+@import "scss/5_layout/nav";
+@import "scss/5_layout/header";
+@import "scss/5_layout/sections";
+@import "scss/5_layout/footer";
+
+// components
+@import "scss/6_components/announcement-modal";
+@import "scss/6_components/article";
+@import "scss/6_components/aside";
+@import "scss/6_components/attribution";
+@import "scss/6_components/blockquote";
+// @import "scss/6_components/breadcrumbs";
+@import "scss/6_components/buttons";
+@import "scss/6_components/cards";
+@import "scss/6_components/code-blocks";
+@import "scss/6_components/cta";
+@import "scss/6_components/form-fields";
+@import "scss/6_components/lists";
+@import "scss/6_components/next";
+@import "scss/6_components/quote";
+@import "scss/6_components/scroll-indicator";
+@import "scss/6_components/share";
+@import "scss/6_components/slider";
+@import "scss/6_components/thumbnails";
+@import "scss/6_components/video";
+// vendor rewrites
+@import "scss/6_components/magnific-popup-reskin";
+// about style
+@import "scss/6_components/about-logos";
+// service style
+@import "scss/6_components/service-icons";
+// blog style
+@import "scss/6_components/blog-sidebar";
+// work style
+@import "scss/6_components/work-background";
+@import "scss/6_components/work-booklet";
+@import "scss/6_components/work-image";
+@import "scss/6_components/work-logo";
+@import "scss/6_components/work-one-pager";
+@import "scss/6_components/work-slideshow";
+@import "scss/6_components/work-screenshots";
+@import "scss/6_components/work-textblock";
+@import "scss/6_components/work-video";
+
+// pages
+@import "scss/7_pages/home";
+@import "scss/7_pages/work-sections";
+@import "scss/7_pages/blog-list";
+@import "scss/7_pages/blog";
+// @import "scss/7_pages/method";
+
+// motion
+@import "scss/8_motion/transitions";
+@import "scss/8_motion/keyframes";
+@import "scss/8_motion/states";
