@@ -1,0 +1,110 @@
+Title: Services
+
+----
+
+Text: 
+
+## Persuasion is a discipline
+
+Pretty much no one eagerly anticipates what you have to say. So your message better be engaging. Before you reach the right people at the right time, we make sure you have what you need to get them to sit up and pay attention.
+
+----
+
+Servicesheadline: Our services
+
+----
+
+Brandstrategytitle: Brand Strategy
+
+----
+
+Brandstrategylist: 
+
+- Brand Positioning
+- Audience Segmentation and Insights
+- Go-To-Market Strategy
+- Brand Architecture
+- Qualitative Research
+
+----
+
+Brandassetstitle: Brand Assets
+
+----
+
+Brandassetslist: 
+
+- Logo and Visual Identity
+- Brand Art and Illustration
+- Naming and Taglines
+- Website Design and Development
+- Sales and Marketing Collateral
+- Package Design
+- Video
+
+----
+
+Brandexperiencestitle: Brand Experiences
+
+----
+
+Brandexperienceslist: 
+
+- Advertising Campaigns
+- Social Media Programs
+- Environmental Design
+- Tradeshow and Event Design
+- Branded Content
+- UI/UX
+
+----
+
+Cta: Persuasion is a discipline
+
+----
+
+Ctatext: Pretty much no one is looking forward to what you have to say. So your message better be engaging. Before you reach the right people at the right time, we make sure you have what you need to get them to sit up and pay attention.
+
+----
+
+Ctabutton: Let's get started
+
+----
+
+Ctalink: contact
+
+----
+
+Sidebartitle: Core Services
+
+----
+
+Heroimg: services hero.jpg
+
+----
+
+Headline: The qualitative side of marketing
+
+----
+
+Socialimg: 
+
+----
+
+Integrity: 
+
+----
+
+Ability: 
+
+----
+
+Spirit: 
+
+----
+
+Quote: mtwain
+
+----
+
+Revisionstoggle: false

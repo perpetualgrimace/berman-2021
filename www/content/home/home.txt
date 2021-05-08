@@ -2,4 +2,72 @@ Title: Home
 
 ----
 
-Text: 
+Headline: Market traction for startups
+
+----
+
+Heroimg: header.jpg
+
+----
+
+Subhead: Too many good ideas go broke before they find their market. We fix that.
+
+----
+
+Text:
+
+## May I have your attention?
+
+So many marketing dollars are wasted on people who aren’t listening. We create messages that make people want what you've got before they know why they want it.
+
+<a href="about" class="button">really?<span class="u-screenreader"> about our company</span></a>
+
+----
+
+Cta: We've helped more than 60 startups go to market.
+
+----
+
+Ctabutton: How can we help you?
+
+----
+
+Blog: For marketers and company leaders, we offer insights gleaned over 14 years of marketing in Boston’s fast-paced Innovation Economy. (link: rss text: RSS feed)
+
+----
+
+Ctalink: contact
+
+----
+
+Method:
+
+## Truth is magic
+
+It's hard to get people to change their behavior. Everyone is already doing something else. By connecting the core truth of your brand with the deepest concerns of your audience, our method positions the brand as the answer to a question your prospects are already asking.
+
+<a href="method" class="button">Learn more<span class="u-screenreader"> about our method</span></a>
+
+----
+
+Services:
+
+### There's a method to persuasion
+
+Before it was a product or service, what was the *reason why* your brand was created? Your most powerful message is based upon something deeper than how it works.
+
+----
+
+Quote1: bbernbach
+
+----
+
+Quote2: gkchesterton
+
+----
+
+Quote3: mtwain
+
+----
+
+Revisionstoggle: false

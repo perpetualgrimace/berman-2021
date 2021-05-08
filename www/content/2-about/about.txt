@@ -1,0 +1,79 @@
+Title: About
+
+----
+
+Text: 
+
+When you're clear in your own mind about why you're doing this, everything you say is infused with purpose. That truth is the secret sauce to getting people to pay attention.
+
+## About Jeff Berman
+
+As far as we know, Jeff is the only creative director who studied astrophysics. After discovering what astrophysicists actually do, Jeff left the University of Chicago for an advertising job at Leo Burnett Company. Jeff worked at Ogilvy & Mather (New York) and Mullen (Boston) in a variety of account management and strategy jobs,  created Shankbone (Fine Apparel for Degenerates) and got it into Bloomingdale's and 100 surf shops, before starting Berman Creative in 2002.
+
+----
+
+Clients: 
+
+## We love the hard cases
+
+Hey, it's hard to make something happen, and most people flail before they succeed. Having worked with almost 100 companies, we know some things about how to make it go. (email: jberman@bermancreative.com text: Let's talk.)
+
+----
+
+Principlesheadline: Berman Creative is built on three principles
+
+----
+
+Integrity: Our clients trust us with the public face of their brands. We need to earn that trust with everything we do. There are no shortcuts to responsibility.
+
+----
+
+Ability: Everyone at Berman is talented and committed to honing their skills. We owe it to our clients to be as good as we can be at everything we do.
+
+----
+
+Spirit: What we do is often fun, but it ain’t easy. Good work combines a deep insight into the problem with the joy of discovery, and then shining a light on that.
+
+----
+
+Sidebartitle: About Berman
+
+----
+
+Cta: Here's our secret
+
+----
+
+Ctabutton: Method
+
+----
+
+Ctalink: about/method
+
+----
+
+Heroimg: about hero.jpg
+
+----
+
+Headline: Everything starts with why
+
+----
+
+Quote1: pdrucker
+
+----
+
+Quote2: bfranklin
+
+----
+
+Ctatext: 
+
+----
+
+Revisionstoggle: false
+
+----
+
+Socialimg: 
