@@ -1,10 +1,10 @@
 <?
 
-snippet('global-head', ['bodyClass' => 'default']);
+snippet('global-head', ['bodyClass' => 'people']);
 snippet('global-nav');
 
 snippet('global-header');
-snippet('global-textblock', ['alignment' => 'u-left']);
+snippet('about-people');
 snippet('global-cta');
 
 snippet('global-footer');
