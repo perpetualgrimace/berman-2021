@@ -51,7 +51,10 @@
     color: $white;
   }
 
-  &.is-active-pg {
-    color: $primary-light;
+  &.is-active-pg:after {
+    @include pseudo;
+    width: 100%;
+    height: $stroke-width;
+    background-color: currentColor;
   }
 }
