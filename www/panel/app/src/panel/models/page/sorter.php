@@ -15,7 +15,7 @@ class Sorter {
     $this->page     = $page;
     $this->parent   = $page->parent();
     $this->params   = $this->parent->blueprint()->pages()->num();
-    $this->siblings = $this->parent->children()->visible();
+    $this->siblings = $this->parent->children()->listed();
 
   }
 

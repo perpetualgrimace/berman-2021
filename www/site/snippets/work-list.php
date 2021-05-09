@@ -1,13 +1,12 @@
 <?
 
 // get all work pages
-// $works = $pages->find('work')->children()->visible();
-$works = $page->children()->visible();
+$works = $pages->find('work')->children()->listed();
 
 // limit works on home page
-// if ($page->isHomePage()) {
-  // $works = $works->limit(12);
-// }
+if ($page->isHomePage()) {
+  $works = $works->limit(12);
+}
 
 ?>
 

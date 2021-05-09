@@ -1,4 +1,4 @@
-<? $children = $page->children()->visible(); ?>
+<? $children = $page->children()->listed(); ?>
 
 
 <section class="parent-container section u-padding-bottom-off">

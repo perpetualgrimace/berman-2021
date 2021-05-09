@@ -1,5 +1,5 @@
 <?
-  $people = $page->children()->visible();
+  $people = $page->children()->listed();
   /*
   $count = $children->count();
   if (($count % 5) == 0):

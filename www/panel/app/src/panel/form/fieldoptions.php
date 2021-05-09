@@ -210,13 +210,13 @@ class FieldOptions {
 
     switch($method) {
       case 'visibleChildren':
-        $items = $page->children()->visible();
+        $items = $page->children()->listed();
         break;
       case 'invisibleChildren':
         $items = $page->children()->invisible();
         break;
       case 'visibleGrandchildren':
-        $items = $page->grandChildren()->visible();
+        $items = $page->grandChildren()->listed();
         break;
       case 'invisibleGrandchildren':
         $items = $page->grandChildren()->invisible();
@@ -225,7 +225,7 @@ class FieldOptions {
         $items = $page->siblings()->not($page);
         break;
       case 'visibleSiblings':
-        $items = $page->siblings()->not($page)->visible();
+        $items = $page->siblings()->not($page)->listed();
         break;
       case 'invisibleSiblings':
         $items = $page->siblings()->not($page)->invisible();

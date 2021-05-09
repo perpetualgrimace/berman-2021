@@ -68,7 +68,7 @@ class Page extends \Page {
         break;
       default:
 
-        $visibleSiblings = $parent->children()->visible();
+        $visibleSiblings = $parent->children()->listed();
 
         if($to == 'last') {
           $to = $visibleSiblings->count() + 1;
@@ -359,7 +359,7 @@ class Page extends \Page {
 
     } else {
 
-      if(!$this->isVisible()) {
+      if(!$this->isListed()) {
         $this->sort($position);
       } else {
         $this->hide();
@@ -385,7 +385,7 @@ class Page extends \Page {
   public function updateNum() {
 
     // make sure that the sorting number is correct
-    if($this->isVisible()) {      
+    if($this->isListed()) {      
       $this->sort($this->num());
     }
 

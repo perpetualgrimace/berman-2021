@@ -1,6 +1,6 @@
 <?
 
-$articles = $page->children()->not('series')->children()->visible()->flip();
+$articles = $page->children()->not('series')->children()->listed()->flip();
 $topics = $articles->pluck('primary_topic', ',', true);
 // $pagination = $articles->pagination();
 

@@ -4,7 +4,7 @@ return function($page) {
 
   $parent    = $page->parent();
   $blueprint = $parent->blueprint();
-  $siblings  = $parent->children()->visible();
+  $siblings  = $parent->children()->listed();
 
   // sorting needed
   if($blueprint->pages()->num()->mode() == 'default' and $siblings->count() > 0) {
@@ -36,7 +36,7 @@ return function($page) {
     $form = new Kirby\Panel\Form(array(
       'confirmation' => array(
         'type' => 'info', 
-        'text' => $page->isVisible() ? l('pages.toggle.hide') : l('pages.toggle.publish')
+        'text' => $page->isListed() ? l('pages.toggle.hide') : l('pages.toggle.publish')
       )
     ));
 

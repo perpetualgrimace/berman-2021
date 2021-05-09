@@ -23,7 +23,7 @@ function tagcloud($parent, $options=array()) {
       $children = $parent->children()->invisible();
       break;
     case 'visible':
-      $children = $parent->children()->visible();
+      $children = $parent->children()->listed();
       break;
     default:
       $children = $parent->children();

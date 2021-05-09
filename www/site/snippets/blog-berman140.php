@@ -22,7 +22,7 @@ $responses = $page->responses()->toStructure();
       $personTitle = $person->position();
 
       // get url
-      if ($pages->find('about/people/' . $person->slug())->isVisible()) {
+      if ($pages->find('about/people/' . $person->slug())->isListed()) {
         $personUrl = $pages->find('blog')->url() . '#' . $personSlug;
       } else {
         $personUrl = $pages->find('blog')->url() . '#berman';

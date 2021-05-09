@@ -1013,7 +1013,7 @@
             return renderTable(opts, data);
         },
 
-        isVisible: function()
+        isListed: function()
         {
             return this._v;
         },

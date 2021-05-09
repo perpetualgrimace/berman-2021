@@ -1,14 +1,13 @@
 <?
 
 // main menu items
-// $items = $pages->visible();
-$items = $pages;
+// $items = $pages->listed();
+$items = $pages->listed();
 
 // text that applies next to menu icon
 $menutext = 'menu';
 
 ?>
-
 
 <div class="nav-container">
   <nav class="nav nav-main g-container u-padding-top-off" role="navigation">
@@ -76,7 +75,7 @@ $menutext = 'menu';
         in_array($item->uri(), $site->dropdownable()->yaml())): ?>
 
         <ul class="dropdown" role="group">
-        <? foreach($item->children()->visible() as $child): ?>
+        <? foreach($item->children()->listed() as $child): ?>
 
         <li class="dropdown-item">
           <a id="dropdown-item-<?= $child->slug() ?>" class="dropdown-link<? e($child->isOpen(), ' is-active-pg') ?>" <? e( ($child->slug() == $page->slug() ), 'aria-describedby="current"') ?>

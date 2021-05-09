@@ -23,10 +23,7 @@ if ($work->thumbImg() != '') {
       </div>
     </a>
 
-    <img class="thumb-img" data-src="<?= $thumbImg->url() ?>" alt="" width="<?= $thumbImg->width() ?>" height="<?= $thumbImg->height() ?>">
-    <noscript>
-      <img class="thumb-img" src="<?= $thumbImg->url() ?>" alt="" width="<?= $thumbImg->width() ?>" height="<?= $thumbImg->height() ?>">
-    </noscript>
+    <img class="thumb-img" src="<?= $thumbImg->url() ?>" alt="" width="<?= $thumbImg->width() ?>" height="<?= $thumbImg->height() ?>" loading="lazy">
 
     <div class="thumb-underlay"></div>
 

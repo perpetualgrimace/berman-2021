@@ -1,7 +1,7 @@
 <?
 
 // get siblings
-$siblings = $page->siblings($self = false)->visible();
+$siblings = $page->siblings($self = false)->listed();
 
 // get sidebar title
 if($page->sidebarTitle() != '') {
