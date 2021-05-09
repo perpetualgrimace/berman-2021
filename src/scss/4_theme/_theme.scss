@@ -10,21 +10,19 @@ main,
 
   // links
   a {
-    color: $primary-color;
-
-    &:hover,
-    &:focus {
-      color: $primary-dark;
-    }
-
-    &:active {
-      color: $primary-dark;
-    }
+    color: $primary-dark;
   }
 
   // underline links within p tags
   p a {
     text-decoration: underline;
+    text-decoration-color: $primary-color;
+
+    &:hover,
+    &:focus {
+      color: rgba($primary-dark, 0.95);
+      text-decoration-color: $primary-dark;
+    }
   }
 }
 

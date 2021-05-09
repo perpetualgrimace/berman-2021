@@ -22,7 +22,7 @@ else { $id = $field; }
 
 <section class="textblock section">
   <div id="<?= $id ?>" class="g-columns<?= $alignment ?>">
-    <article class="g-col g-8 font-lg u-margins-auto">
+    <article class="g-col g-6 font-md u-margins-auto">
 
       <?= kirbytext($page->$field()) ?>
 

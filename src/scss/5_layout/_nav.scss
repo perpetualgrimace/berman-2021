@@ -4,14 +4,12 @@
 
 // nav container
 .nav-container {
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 11;
-  background: linear-gradient(to bottom, $white 0%, rgba($white, 0.9) 100%);
-
-  @media (min-width: $m3) and (min-height: $sm2) {
-    position: fixed;
-  }
+  background-color: $white;
+  @include box-shadow(rgba($raisin, 0.1));
 }
 
 // nav element
@@ -21,7 +19,6 @@
   // base style for nav elements
   * {
     text-transform: uppercase;
-    font-size: $font-xs;
     color: $raisin;
   }
 }
@@ -71,95 +68,29 @@
 // nav list
 .nav-list {
   float: right;
-
-  // small screens
-  @media (max-width: $m2 - 0.001) {
-    @include dropdown-hidden;
-    @include fullwidth;
-    @include font-smoothing;
-    width: 100%; // fallback
-    width: 100vw;
-    top: 0;
-    left: 0;
-    z-index: -10;
-    background: $raisin;
-
-    // prevent page jump
-    &:before {
-      @include pseudo;
-      width: 100%;
-      height: $nav-height;
-      background: $white;
-    }
-  }
+  right: -0.325em;
 }
 
 // nav items
 .nav-item {
-  float: left;
-
-  // large screen style
-  @media (min-width: $m2) {
-    width: auto;
-    display: block;
-  }
+  width: auto;
+  display: inline-block;
 }
 
 // nav links
 .nav-link {
   display: block;
   line-height: $nav-height; // vertically center
+  color: $primary-dark;
+  padding: 0 0.5rem;
 
-  @media (min-width: $m2) {
-    padding: 0 0.5rem;
-
-    &:hover, &:focus, &:active {
-      color: $primary-dark;
-    }
+  &:hover, &:focus, &:active {
+    color: rgba($primary-dark, 0.9);
   }
 
   // active page
   &.is-active-pg {
-    color: $primary-color;
-  }
-}
-
-
-////////////////////////////////
-// main nav on small screens
-////////////////////////////////
-
-// toggled list style
-@media (max-width: $m2 - 0.001) {
-  .nav-item {
-    width: 16.6%;
-    text-align: center;
-  }
-  .nav-link {
-    color: $white;
-
-    &.is-active-pg {
-      color: $white;
-      background: $primary-color;
-    }
-
-    &:hover, &:active, &:focus {
-      background: $primary-dark;
-    }
-  }
-}
-
-// tiny screens
-@media (max-width: $sm2 - 0.001) {
-  .nav-item {
-    width: 33.3333333333333%;
-  }
-}
-
-// super small screens
-@media (max-width: $sm1 - 0.001) {
-  .nav-item {
-    width: 100%;
+    color: $primary-dark;
   }
 }
 

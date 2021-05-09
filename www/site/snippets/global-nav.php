@@ -21,28 +21,17 @@ $menutext = 'menu';
 
     <!-- logo -->
     <a class="nav-logo<? e( $page->isHomePage(), ' is-active-pg' ) ?>" href="<? e( $page->isHomePage(), '#main', $site->url() ) ?>">
-      <? snippet('icon-berman-logo') ?>
-    </a>
-
-
-    <!-- nav toggle -->
-    <a class="js-nav-toggle nav-toggle is-inactive" href="#nav">
-      <div class="js-hamburger hamburger is-inactive">
-        <span class="hamburger-bun hamburger-bun-top"></span>
-        <span class="hamburger-bun hamburger-bun-patty"></span>
-        <span class="hamburger-bun hamburger-bun-bottom"></span>
-      </div>
-      <span class="nav-toggle-text"><?= $menutext ?></span>
+      <? snippet('berman-logo.svg') ?>
     </a>
 
 
     <!-- main nav -->
-    <ul id="nav" class="nav-list is-collapsed">
+    <ul id="nav" class="nav-list">
 
     <? foreach($items as $item): ?>
 
       <li class="nav-item<? e(in_array($item->uri(), $site->dropdownable()->yaml()), ' has-dropdown" aria-haspopup="true'); ?>">
-        <a class="nav-link<? e($item->isOpen(), ' is-active-pg') ?>" <? e( ($item->slug() == $page->slug()), 'aria-describedby="current"' ) ?> href="<? e( $item->isOpen() && ( $page->slug() == $item->slug() ), '#main', $item->url() ) ?>">
+        <a class="nav-link<? e($item->isOpen(), ' is-active-pg') ?> font-xs" <? e( ($item->slug() == $page->slug()), 'aria-describedby="current"' ) ?> href="<? e( $item->isOpen() && ( $page->slug() == $item->slug() ), '#main', $item->url() ) ?>">
         <?= $item->uri(); if($item->uri() == 'about'): ?>
           <span class="u-screenreader"> <?= $site->title() ?></span>
         <? endif; ?>

@@ -2,6 +2,10 @@
 // refactor
 ////////////////////////////////
 
+* {
+  @include font-smoothing;
+}
+
 // default type
 html {
   @include body-font;
@@ -121,11 +125,7 @@ code {
 .font-xs,
 .font-xs p,
 .font-xs li  {
-  font-size: $font-sm;
-
-  @media (min-width: $m2) {
-    font-size: $font-xs;
-  }
+  font-size: $font-xs;
 }
 
 
@@ -134,10 +134,8 @@ main * {
   line-height: 1.5;
 }
 
-// heading line-height
-h1, h2, h3, h4, h5, h6,
-.heading, .display {
-  line-height: 1;
+h1 {
+  line-height: 1.136;
 }
 
 

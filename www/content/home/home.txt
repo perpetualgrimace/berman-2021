@@ -2,25 +2,25 @@ Title: Home
 
 ----
 
-Headline: Market traction for startups
+Headline: Good ideas shouldn’t fail for stupid reasons.
 
 ----
 
-Heroimg: header.jpg
+Heroimg: hero@2x.jpg
 
 ----
 
-Subhead: Too many good ideas go broke before they find their market. We fix that.
+Subhead:
 
 ----
 
 Text:
 
-## May I have your attention?
+We’ve all seen too many compaines, often run by good people with good ideas, go out of business because they weren’t able to tap into a market.
 
-So many marketing dollars are wasted on people who aren’t listening. We create messages that make people want what you've got before they know why they want it.
+That drives us crazy.
 
-<a href="about" class="button">really?<span class="u-screenreader"> about our company</span></a>
+Since 2002, Berman Creative has generated go-to-market strategies and branding for more than 50 successful startups, including Carbonite, (link: work/tivoli-audio text: Tivoli Audio), and (link: work/beacon text: Beacon Health Strategies). Maybe we can help you.
 
 ----
 

@@ -4,18 +4,12 @@
 
 // main container
 .header {
-  @include brand-gradient;
   display: flex;
   align-items: center;
   overflow: hidden;
-  height: 40vh;
-  min-height: 8rem;
-  min-height: calc(5rem + 20vw);
-
-  // offset fixed nav
-  @media (min-width: $m3) and (min-height: $sm2) {
-    margin-top: $nav-height;
-  }
+  min-height: 24.5rem;
+  z-index: 12;
+  overflow: hidden;
 }
 
 // row
@@ -47,11 +41,16 @@
   z-index: -1;
 }
 
+.header-headline,
+.home-header-subhead {
+  text-shadow: 0 2px 0.75em rgba($raisin, 0.9);
+}
+
 // hero image
 .hero-img {
   @include absolute-expand;
   object-fit: cover;
-  object-position: 80% 50%;
+  object-position: 40% 50%;
 }
 
 // overrides
@@ -76,40 +75,25 @@ body.contact .hero-img {
 // home page
 ////////////////////////////////
 
+.home-header {
+  background: $primary-color linear-gradient(180deg, $primary-color 0%, #EBE6DB 40%, #E0D6BF 70%, #7F7770 100%);
+  align-items: flex-end;
+}
+
 .home-header .hero {
   animation: scaleDown 1s ease-out;
+}
 
-  @media (min-width: $l1) {
-    position: fixed;
+.home-header-wrapper {
+  display: flex;
+
+  & > * {
+    margin: auto auto 1.5rem auto;
+
+    @media screen and (min-width: $m1) {
+      margin-bottom: 2rem;
+    }
   }
-}
-
-// fallback for non-video mobile devices
-/*
-.home-hero-mobile {
-  background: url("../../content/home/video-fallback.jpg");
-  background-size: cover;
-  background-position: 0;
-}
-
-// fake cover
-.home-video {
-  @include absolute-center;
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  overflow: hidden;
-}
-*/
-
-.home-headline {
-  @include fuzzy-shadow;
-}
-
-.home-header-subhead {
-  @include fuzzy-shadow;
 }
 
 
@@ -126,7 +110,6 @@ body.contact .hero-img {
   // account for fixed-width navbar
   @media (min-width: $m3) and (min-height: $sm2) {
     margin-top: $nav-height;
-    max-height: calc(100vh - #{$nav-height});
   }
 }
 
