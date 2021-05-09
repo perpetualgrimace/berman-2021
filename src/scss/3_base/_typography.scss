@@ -113,6 +113,11 @@ code {
 .font-md li {
   font-size: $font-md;
 }
+.font-sm,
+.font-sm p,
+.font-sm li {
+  font-size: $font-sm;
+}
 .font-xs,
 .font-xs p,
 .font-xs li  {
