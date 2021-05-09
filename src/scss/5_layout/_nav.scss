@@ -10,6 +10,11 @@
   z-index: 11;
   background-color: $white;
   @include box-shadow(rgba($raisin, 0.1));
+
+  // only nav on work detail pages
+  .work.depth-2 & {
+    z-index: 13;
+  }
 }
 
 // nav element

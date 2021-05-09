@@ -1,6 +1,9 @@
 <? $template = $page->intendedTemplate() ?>
 
 <header class="header" role="banner">
+
+  <? snippet('header-nav') ?>
+
   <div class="g-container">
     <div class="g-columns">
       <div class="g-col">

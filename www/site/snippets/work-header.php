@@ -35,6 +35,7 @@ if ($page->image($page->logoImgSvg()) || $page->image('logo.svg')) {
 ?>
 
 <header class="work-header header t-dark" role="banner">
+
   <div class="g-container">
     <div class="g-columns work-headline-container">
       <div class="g-col">
