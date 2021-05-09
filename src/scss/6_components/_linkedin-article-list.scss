@@ -1,0 +1,15 @@
+.in-article-link {
+  display: inline-block;
+  line-height: 1.25;
+}
+
+.in-article-item:not(:last-child) {
+  margin-bottom: $gutter;
+}
+
+.in-article-meta {
+  @include medium-font;
+  display: block;
+  margin-top: -0.5em;
+  color: $primary-color;
+}

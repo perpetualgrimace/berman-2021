@@ -14,7 +14,9 @@ main,
   }
 
   // underline links within p tags
-  p a {
+  p a,
+  section li a {
+    @include medium-font;
     text-decoration: underline;
     text-decoration-color: $primary-color;
 

@@ -1,0 +1,50 @@
+Title: Blog
+
+----
+
+headline: Blog
+
+----
+
+subhead:
+
+----
+
+Cta:
+
+----
+
+Ctabutton:
+
+----
+
+Ctalink:
+
+----
+
+Heroimg: linkedin-hero.jpg
+
+----
+
+Articles:
+
+-
+  title: On the Value of Less-Structured Time
+  link: https://www.linkedin.com/pulse/value-less-structured-time-jeff-berman/
+  date: April 22, 2021
+-
+  title: You Have to Make Them Want It Before They Know Why They Want It
+  link: https://www.linkedin.com/pulse/you-have-make-them-want-before-know-why-jeff-berman/
+  date: April 13, 2021
+-
+  title: Why We Haven't Seen the Next Apple
+  link: https://www.linkedin.com/pulse/why-next-apple-jeff-berman/
+  date: April 2, 2021
+-
+  title: Engineer thinking vs. Brand thinking
+  link: https://www.linkedin.com/pulse/engineer-thinking-vs-brand-jeff-berman/
+  date: February 9, 2021
+-
+  title: Good ideas shouldn’t fail for stupid reasons
+  link: https://www.linkedin.com/pulse/good-ideas-shouldnt-fail-stupid-reasons-jeff-berman/
+  date: February 2, 2021

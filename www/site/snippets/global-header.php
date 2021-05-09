@@ -8,7 +8,7 @@
     <div class="g-columns">
       <div class="g-col">
 
-        <h1 class="header-headline display<? e($template == 'blog' || $template == 'blog-berman140', ' blog-title u-margin-top-xl') ?>">
+        <h1 class="header-headline display u-left-center font-xxxl<? e($template == 'blog' || $template == 'blog-berman140', ' blog-title u-margin-top-xl') ?>">
 
           <? // title
           if ($template == 'blog' || $template == 'blog-berman140') {

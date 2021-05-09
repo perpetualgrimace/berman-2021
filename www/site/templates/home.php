@@ -7,7 +7,7 @@ snippet('global-nav');
 snippet('home-header');
 snippet('global-textblock');
 snippet('work-list');
-snippet('home-blog-list');
+snippet('linkedin-article-list');
 snippet('global-cta');
 
 snippet('global-footer');

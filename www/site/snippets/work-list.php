@@ -10,7 +10,7 @@ if ($page->isHomePage()) {
 
 ?>
 
-<section class="<? e($page->isHomePage(), 'section ', 'u-margin-top ') ?>work-grid g-columns">
+<section class="<? e($page->isHomePage(), 'section ', 'u-margin-top ') ?>work-grid g-columns u-padding-bottom-off">
   <div class="g-col g-6 u-margins-auto u-padding-top-off u-padding-bottom-off">
 
     <!-- title text -->
