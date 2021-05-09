@@ -74,12 +74,6 @@ body.contact .hero-img {
   background-position: 33% 50%;
 }
 
-// home hero initial state
-.no-js .home-hero-img {
-  opacity: 0;
-  transform: scale(1.05);
-}
-
 .header-headline,
 .header-subhead {
   color: $white;
@@ -90,9 +84,7 @@ body.contact .hero-img {
 ////////////////////////////////
 
 .home-header .hero {
-  background-position: 100% 30%;
-  transform: scale(1.005);
-  transform-origin: 50% 50%;
+  animation: scaleDown 1s ease-out;
 
   @media (min-width: $l1) {
     position: fixed;

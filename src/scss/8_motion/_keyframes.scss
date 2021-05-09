@@ -26,3 +26,10 @@
     z-index: 1;
   }
 }
+
+@keyframes scaleDown {
+  from {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+}
