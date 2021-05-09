@@ -23,11 +23,6 @@
   z-index: 1;
 }
 
-// add long shadow
-.header-headline {
-  @include long-shadow;
-}
-
 // make subhead span act like a div
 .header-subhead {
   display: block;
@@ -111,10 +106,6 @@ body.contact .hero-img {
 
 .home-headline {
   @include fuzzy-shadow;
-
-  &.with-long-shadow {
-    @include longer-shadow;
-  }
 }
 
 .home-header-subhead {

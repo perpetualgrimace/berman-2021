@@ -7,7 +7,6 @@ ______div.thumb-caption
 ________span.thumb-title
 ________span.thumb-meta
 ____img.thumb-img
-____div.thumb-underlay (like an overlay, but under)
 
 */
 
@@ -41,10 +40,10 @@ ____div.thumb-underlay (like an overlay, but under)
 // link, contains text
 .thumb-link {
   @include absolute-expand;
-  @include fuzzy-shadow;
   z-index: 2;
   padding: $gutter;
   padding-top: 36%; // fudged for non-flexy browsers
+  border: $stroke-width solid $primary-color;
 
   // progressively enhanced vertical alignment via flex and @supports
   @supports (flex-wrap: wrap) {
@@ -65,13 +64,12 @@ ____div.thumb-underlay (like an overlay, but under)
 .thumb-title,
 .thumb-meta {
   display: block;
-  color: $white;
+  color: $primary-dark;
 }
 .thumb-title {
   line-height: 1;
 }
 .thumb-meta {
-	@include font-smoothing;
   margin-top: 0.325em;
   line-height: 1.25;
 }
@@ -85,18 +83,8 @@ ____div.thumb-underlay (like an overlay, but under)
   transform: scale(1.01); // prevent 1px gaps due to subpixel rounding
   position: absolute;
   top: 0;
-
-  // limit thumbnail height on smaller screens if object-fit is supported
-  @supports(object-fit: cover) {
-    object-fit: cover;
-    object-position: 50% 33%;
-  }
-}
-// like an overlay, but under
-.thumb-underlay {
-  @include absolute-expand;
-  @include brand-gradient;
-  z-index: 0;
+  object-fit: cover;
+  object-position: 50% 33%;
 }
 
 
@@ -141,11 +129,11 @@ ____div.thumb-underlay (like an overlay, but under)
   .thumb-list {
     // thumbnails shrink when the container is hovered
     &:hover .thumb-img {
-      opacity: 0.1;
+      opacity: 0.05;
       transform: scale(0.9);
     }
     &:focus-within .thumb-img {
-      opacity: 0.1;
+      opacity: 0.05;
       transform: scale(0.9);
     }
   }
@@ -154,26 +142,16 @@ ____div.thumb-underlay (like an overlay, but under)
     opacity: 1;
   }
 
-  .thumb-underlay {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-
   // actively hovered item gets hover treatment
   .thumb-item:hover {
     .thumb-link {
       opacity: 1;
       transform: scale(1);
     }
-    .thumb-underlay {
-      @include brand-gradient;
-      opacity: 1;
-    }
 
     // don't scale down, blend with background color
     .thumb-img {
-      opacity: 0.25;
+      opacity: 0.125;
       transform: scale(1);
     }
   }
@@ -182,14 +160,10 @@ ____div.thumb-underlay (like an overlay, but under)
       opacity: 1;
       transform: scale(1);
     }
-    .thumb-underlay {
-      @include brand-gradient;
-      opacity: 1;
-    }
 
     // don't scale down, blend with background color
     .thumb-img {
-      opacity: 0.25;
+      opacity: 0.125;
       transform: scale(1);
     }
   }

@@ -229,19 +229,20 @@
 // button base style
 ////////////////////////////////
 
-@mixin button-base($background-color: $primary-color, $text-color: $white) {
-  @include font-smoothing;
+@mixin button-base(
+  $background-color: $primary-light,
+  $text-color: $primary-dark,
+  $border-color: $primary-color
+) {
   display: inline-block;
   margin-top: 1.5em;
-  padding: 0.5em 2em 0.75em; // cleanest button padding ever, amirite?
-  font-size: 1rem;
-  text-transform: lowercase;
+  padding: 0.6em 1.4em 0.425em 1.4em;
+  font-size: 1em;
   text-decoration: none !important;
   color: $text-color !important;
-  background: $background-color; // fallback
   background-color: $background-color; // base color
-  border: $stroke-thin solid $background-color;
-  border-radius: $radius;
+  border: $stroke-width solid $border-color;
+  border-radius: $radius-lg;
 }
 
 
@@ -250,8 +251,8 @@
 ////////////////////////////////
 
 @mixin brand-gradient {
-  background-color: $secondary-color;
-  background-image: linear-gradient(315deg, $secondary-color 10%, $primary-color 90%);
+  background-color: $primary-light;
+  background-image: linear-gradient(315deg, $primary-light 10%, $white 90%);
   transform: scale(1);
 }
 

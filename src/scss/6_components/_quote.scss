@@ -42,10 +42,6 @@ ________ p.quote-attribution
   }
 }
 
-.quote-text {
-  @include long-shadow;
-}
-
 .quote-img {
   @include absolute-expand;
   opacity: 0.875;

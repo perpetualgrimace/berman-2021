@@ -28,6 +28,4 @@ if ($work->page() != '') {
       <img class="home-thumb-img thumb-img" src="<?= $thumbImg->url() ?>" alt="" width="<?= $thumbImg->width() ?>" height="<?= $thumbImg->height() ?>" loading="lazy">
     <? endif ?>
 
-    <div class="thumb-underlay"></div>
-
 </li>

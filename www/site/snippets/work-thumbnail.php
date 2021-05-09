@@ -25,6 +25,4 @@ if ($work->thumbImg() != '') {
 
     <img class="thumb-img" src="<?= $thumbImg->url() ?>" alt="" width="<?= $thumbImg->width() ?>" height="<?= $thumbImg->height() ?>" loading="lazy">
 
-    <div class="thumb-underlay"></div>
-
 </li>
