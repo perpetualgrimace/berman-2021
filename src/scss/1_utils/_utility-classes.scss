@@ -76,7 +76,7 @@
 
 // make a link look like body text
 .u-unlink-body {
-  @include lato;
+  @include body-font;
   text-decoration: none;
   color: $black;
 }

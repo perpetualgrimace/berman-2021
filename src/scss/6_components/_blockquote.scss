@@ -20,14 +20,14 @@ blockquote {
 
   // the quote
   * {
-    @include utopia-italic;
+    @include medium-font;
     line-height: 1;
     font-size: $gamma;
   }
 
   // the attribution
   * + *:last-child {
-    @include lato;
+    @include body-font;
     display: block;
     font-size: $delta;
     text-align: right;

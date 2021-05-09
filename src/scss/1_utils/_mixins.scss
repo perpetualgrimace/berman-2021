@@ -3,33 +3,27 @@
 ////////////////////////////////
 
 // body fonts
-@mixin lato {
-  font-family: "lato", Lato, Geneva, Tahoma, sans-serif;
+@mixin body-font {
+  font-family: "activ-grotesk", Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
 }
-@mixin lato-italic {
-  font-family: "lato", Lato, Geneva, Tahoma, sans-serif;
+@mixin body-font-italic {
+  font-family: "activ-grotesk", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
 }
-@mixin lato-bold {
-  font-family: "lato", Lato, Geneva, Tahoma, sans-serif;
+@mixin medium-font {
+  font-family: "activ-grotesk", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+@mixin bold-font {
+  font-family: "activ-grotesk", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
 }
 
-// heading fonts
-@mixin utopia {
-  font-family: "utopia-std", Utopia, georgia, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
-@mixin utopia-italic {
-  font-family: "utopia-std", Utopia, georgia, sans-serif;
-  font-style: italic;
-  font-weight: 400;
-}
 
 // font smoothing
 @mixin font-smoothing {
