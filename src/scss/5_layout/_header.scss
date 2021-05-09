@@ -47,7 +47,7 @@
 
 // hero image container
 .hero {
-  @include inflate;
+  @include absolute-expand;
   top: 0;
   z-index: -1;
 }
@@ -201,7 +201,7 @@ body.contact .header {
 }
 
 .contact-header-link {
-  @include inflate;
+  @include absolute-expand;
   z-index: 10;
 
   &:focus {

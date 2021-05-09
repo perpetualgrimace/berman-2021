@@ -40,7 +40,7 @@ ____div.thumb-underlay (like an overlay, but under)
 
 // link, contains text
 .thumb-link {
-  @include inflate;
+  @include absolute-expand;
   @include fuzzy-shadow;
   z-index: 2;
   padding: $gutter;
@@ -94,7 +94,7 @@ ____div.thumb-underlay (like an overlay, but under)
 }
 // like an overlay, but under
 .thumb-underlay {
-  @include inflate;
+  @include absolute-expand;
   @include brand-gradient;
   z-index: 0;
 }

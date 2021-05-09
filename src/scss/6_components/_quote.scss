@@ -47,7 +47,7 @@ ________ p.quote-attribution
 }
 
 .quote-img {
-  @include inflate;
+  @include absolute-expand;
   opacity: 0.875;
   background-size: auto 100%;
   background-repeat: no-repeat;

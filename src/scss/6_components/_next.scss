@@ -27,7 +27,7 @@
   z-index: 1;
 }
 .next-img {
-  @include inflate;
+  @include absolute-expand;
   object-fit: cover;
   object-position: center;
 }

@@ -1,6 +1,6 @@
 // wrapper
 .announcement-wrapper {
-  @include inflate;
+  @include absolute-expand;
   position: fixed;
   background: rgba($black, 0.85);
   z-index: 999; // inentionally excessive
