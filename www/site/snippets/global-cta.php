@@ -15,6 +15,8 @@ if($page->cta() != '') {
 
 ?>
 
+<? /*
+
 <section class="section g-columns u-center u-margin-top-off u-margin-bottom">
   <div class="g-col u-padding-top-off u-padding-bottom-off">
     <div class="cta u-padding-top-xl u-padding-bottom-xl">
@@ -30,3 +32,5 @@ if($page->cta() != '') {
     </div><!-- .cta -->
   </div><!-- .g-col -->
 </section><!-- .g-columns -->
+
+*/ ?>
