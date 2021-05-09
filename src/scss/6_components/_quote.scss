@@ -49,8 +49,7 @@ ________ p.quote-attribution
 .quote-img {
   @include absolute-expand;
   opacity: 0.875;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-position: right;
+  object-fit: contain;
+  object-position: right;
   z-index: -1;
 }

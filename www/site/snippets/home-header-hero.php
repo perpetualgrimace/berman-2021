@@ -9,5 +9,5 @@ if ($page->heroImg() != '') {
 ?>
 
 <div class="hero u-margin-top-off">
-  <div class="hero-img home-hero-img" style="background-image: url(<?= $img->url() ?>)"></div>
+  <img class="hero-img home-hero-img" src="<?= $img->url() ?>" draggable="false" loading="lazy" />
 </div>
