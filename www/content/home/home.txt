@@ -34,6 +34,14 @@ Ctabutton: How can we help you?
 
 ----
 
+workHeading: Some of our work
+
+----
+
+blogHeading: Our latest on LinkedIn
+
+----
+
 Blog: For marketers and company leaders, we offer insights gleaned over 14 years of marketing in Boston’s fast-paced Innovation Economy. (link: rss text: RSS feed)
 
 ----

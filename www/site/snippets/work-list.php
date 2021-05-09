@@ -10,16 +10,19 @@ if ($page->isHomePage()) {
 
 ?>
 
-<section class="<? e($page->isHomePage(), 'section ', 'u-margin-top ') ?>work-grid g-columns u-left-center">
-  <div class="g-col">
+<section class="<? e($page->isHomePage(), 'section ', 'u-margin-top ') ?>work-grid g-columns">
+  <div class="g-col g-6 u-margins-auto u-padding-top-off u-padding-bottom-off">
 
     <!-- title text -->
     <? if ($page->isHomePage()): ?>
-      <h2 class="display font-xxl u-margin-bottom"><span class="u-screenreader">Our </span>Work</h2>
+      <h2 class="display font-xl"><?e ($page->workHeading() != "", $page->workHeading(), "Work") ?></h2>
     <? endif ?>
 
+  </div>
+
+  <div class="g-col">
     <!-- the grid -->
-    <ul class="thumb-list<? e(!$page->isHomePage(), ' u-padding-top') ?>">
+    <ul class="thumb-list u-fullwidth<? e(!$page->isHomePage(), ' u-padding-top') ?>">
       <? if ($works) {
         foreach ($works as $work) {
           snippet('work-thumbnail', ['work' => $work]);
@@ -27,13 +30,14 @@ if ($page->isHomePage()) {
       }
       ?>
     </ul>
+  </div>
 
-    <!-- more -->
-    <? if ($page->isHomePage()): ?>
-      <div class="g-columns u-center">
-        <a href="<?= $site->url() ?>/work#more" class="button u-margin-top-lg u-margin-bottom">More Work</a>
-      </div>
-    <? endif ?>
+  <!-- more -->
+  <? /* if ($page->isHomePage()): ?>
+    <div class="g-col u-center">
+      <a href="<?= $site->url() ?>/work#more" class="button u-margin-top-lg u-margin-bottom">More Work</a>
+    </div>
+  <? endif */ ?>
 
   </div>
 </section>
