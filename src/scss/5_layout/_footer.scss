@@ -76,7 +76,7 @@
   // interactions
   &:hover path,
   &:focus path {
-    fill: $secondary-color;
+    fill: $primary-dark;
   }
 }
 
@@ -109,7 +109,7 @@
   &:hover path,
   &:focus path,
   &:active path {
-    fill: $secondary-color;
+    fill: $primary-dark;
   }
 }
 

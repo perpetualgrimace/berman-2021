@@ -92,7 +92,7 @@ __ .mfp-close
 
   // interactions
   &:hover, &:focus {
-    color: $secondary-color;
+    color: $primary-dark;
   }
 }
 
@@ -143,7 +143,7 @@ __ .mfp-close
 }
 .mfp-arrow:hover:after,
 .mfp-arrow:hover:focus {
-  color: $secondary-color;
+  color: $primary-dark;
 }
 
 // hide preloader altogether

@@ -14,7 +14,7 @@ main,
 
     &:hover,
     &:focus {
-      color: $secondary-color;
+      color: $primary-dark;
     }
 
     &:active {
@@ -47,7 +47,7 @@ header ~ * {
 
     &:hover,
     &:focus {
-      color: $secondary-color;
+      color: $primary-dark;
     }
   }
 }

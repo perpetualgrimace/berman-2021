@@ -37,7 +37,7 @@
 
   // hovering image triggers adjacent title
   &:hover + .card-caption > .card-title {
-    color: $secondary-color;
+    color: $primary-dark;
   }
 }
 
@@ -109,7 +109,7 @@
   > .card-icon path,
   > .card-icon circle,
   > .card-icon g {
-    fill: $secondary-color;
+    fill: $primary-dark;
   }
 }
 

@@ -59,7 +59,7 @@
   &:focus,
   &:active {
     svg path {
-      fill: $secondary-color;
+      fill: $primary-dark;
     }
   }
 }
@@ -114,7 +114,7 @@
     padding: 0 0.5rem;
 
     &:hover, &:focus, &:active {
-      color: $secondary-color;
+      color: $primary-dark;
     }
   }
 
@@ -144,7 +144,7 @@
     }
 
     &:hover, &:active, &:focus {
-      background: $secondary-color;
+      background: $primary-dark;
     }
   }
 }
@@ -206,7 +206,7 @@
 
   // default
   &:hover, &:active, &:focus {
-    background: $secondary-color;
+    background: $primary-dark;
   }
 
   // active page
