@@ -44,6 +44,7 @@ ____img.thumb-img
   padding: $gutter;
   padding-top: 36%; // fudged for non-flexy browsers
   border: $stroke-width solid $primary-color;
+  text-decoration: none;
 
   // progressively enhanced vertical alignment via flex and @supports
   @supports (flex-wrap: wrap) {
