@@ -22,7 +22,7 @@ $principles = ['integrity', 'ability', 'spirit'];
       </div>
     <? endforeach ?>
 
-    <a href="<?= $pages->find('careers') ?>" class="button u-margin-top">Careers</a>
+    <? /* <a href="<?= $pages->find('careers') ?>" class="button u-margin-top">Careers</a> */ ?>
 
   </div>
 </section>
