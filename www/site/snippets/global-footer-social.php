@@ -1,15 +1,13 @@
-<div class="footer-copyright-text font-xs"><?= kirbytext($site->copyright()) ?></div>
-
 <h3 class="u-screenreader">Follow Berman:</h3>
 
-<ul class="footer-social-list u-margin-top inline-list">
+<ul class="footer-social-list inline-list">
   <?
 
   // define social media icons in an array
-  $social_media = ['twitter', 'facebook', 'instagram'];
+  $social_media = ['instagram', 'facebook', 'linkedin'];
 
   foreach($social_media as $social):
-    $snippet = 'global-nav-' . $social;
+    $snippet = $social . '.svg';
 
   ?>
 

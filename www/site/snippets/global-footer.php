@@ -1,26 +1,24 @@
 </div> <!-- .g-container -->
 </main> <!-- .main -->
 
-<footer class="footer t-dark" role="contentinfo">
+<footer class="footer u-margin-top-lg" role="contentinfo">
   <div class="g-container">
-    <div class="footer-nav-contact-container g-columns">
+    <div class="g-columns">
 
       <!-- navigation -->
-      <div class="footer-nav g-col g-6 font-xs">
-        <? snippet('global-footer-nav') ?>
+      <div class="footer-nav g-col">
+        <h2>Berman Creative</h2>
+        <p class="font-xs u-margin-top u-margin-bottom">Boston, Massachusetts</p>
       </div>
 
       <!-- contact -->
-      <div class="footer-contact g-col g-6 font-xs u-center">
+      <div class="footer-contact g-col g-6 font-xs">
         <? snippet('global-footer-contact') ?>
       </div>
 
-    </div>
-    <div class="g-columns">
-
-      <!-- copyright -->
-      <div class="footer-copyright g-col font-xs u-center">
-        <? snippet('global-footer-copyright-social') ?>
+      <!-- social -->
+      <div class="footer-social g-col g-6 u-left-right">
+        <? snippet('global-footer-social') ?>
       </div>
 
     </div>
