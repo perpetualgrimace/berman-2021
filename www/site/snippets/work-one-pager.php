@@ -40,10 +40,7 @@ $jsDataAttr = 'data-js="one-pager-' . $section->idNumber() . '"';
       ?>
 
         <a class="one-pager-link g-col <?= $imgCount ?>" href="<?= $imgUrl ?>" data-source="<?= $imgUrl ?>" title="">
-          <img class="one-pager-img" data-src="<?= $imgUrl ?>" alt="" draggable="false">
-          <noscript>
-            <img class="one-pager-img" src="<?= $imgUrl ?>" alt="" draggable="false">
-          </noscript>
+          <img class="one-pager-img" src="<?= $imgUrl ?>" alt="" draggable="false" loading="lazy">
         </a>
 
       <? endforeach ?>

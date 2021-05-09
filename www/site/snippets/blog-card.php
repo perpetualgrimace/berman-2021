@@ -60,10 +60,7 @@ if ($article->thumbImg() != '') {
 
     <a href="<?= $article->url() ?>" class="card-thumb blog-card-thumb" tabindex="-1" aria-hidden="true">
       <? if ($thumbImg != NULL): ?>
-        <img class="card-img" data-src="<?= $thumbImg->url() ?>" alt="" draggable="false">
-        <noscript>
-          <img class="card-img" src="<?= $thumbImg->url() ?>" alt="" draggable="false">
-        </noscript>
+        <img class="card-img" src="<?= $thumbImg->url() ?>" alt="" draggable="false" loading="lazy">
       <? endif ?>
     </a>
 

@@ -48,13 +48,7 @@ $jsDataAttrPrev = 'data-js="booklet-slider-prev-' . $section->idNumber() . '"';
 
         <li class="booklet-item u-margin-top-off">
           <a class="booklet-link" href="<?= $imgUrl ?>" data-source="<?= $imgUrl ?>" title="" >
-            <img class="booklet-img" data-src="<?= $imgUrl ?>" alt="" draggable="false">
-            <!-- if javascript fails to load, only show the first slide -->
-            <? if ($slideCount == 1): ?>
-              <noscript>
-                <img class="booklet-img" src="<?= $imgUrl ?>" alt="" draggable="false">
-              </noscript>
-            <? endif ?>
+            <img class="booklet-img" src="<?= $imgUrl ?>" alt="" draggable="false" loading="lazy">
           </a>
         </li>
 

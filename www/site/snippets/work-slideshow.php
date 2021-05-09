@@ -34,13 +34,7 @@ $jsDataAttr = 'data-js="work-slideshow"';
     ?>
 
       <li class="work-slideshow-item u-margin-top-off">
-        <img class="work-slideshow-img" data-src="<?= $imgUrl ?>" alt="" draggable="false">
-        <!-- if javascript fails to load, only show the first slide -->
-        <? if ($slideCount == 1): ?>
-          <noscript>
-            <img class="work-slideshow-img" src="<?= $imgUrl ?>" alt="" draggable="false">
-          </noscript>
-        <? endif ?>
+        <img class="work-slideshow-img" src="<?= $imgUrl ?>" alt="" draggable="false" loading="lazy">
       </li>
 
     <? endforeach ?>

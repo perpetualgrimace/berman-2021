@@ -14,9 +14,6 @@ if ($video->platform() == 'youtube') {
 
 <div class="video-item">
   <figure class="video">
-    <iframe data-src="<?= $embedPath . $video->id() ?>" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    <noscript>
-      <iframe src="<?= $embedPath . $video->id() ?>" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    </noscript>
+    <iframe src="<?= $embedPath . $video->id() ?>" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" loading="lazy"></iframe>
   </figure>
 </div>

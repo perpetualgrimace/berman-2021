@@ -30,10 +30,7 @@ if($quote->quoteImg() != '') {
     </div>
 
   <? if ($quoteImg != NULL): ?>
-    <div class="quote-img u-margin-top-off" data-bg-src="<?= $quoteImg ?>"></div>
-    <noscript>
-      <div class="quote-img u-margin-top-off" style="background-image: url(<?= $quoteImg ?>)"></div>
-    </noscript>
+    <img class="quote-img u-margin-top-off" src="<?= $quoteImg ?>" draggable="false" loading="lazy" />
   <? endif ?>
 
 </div>

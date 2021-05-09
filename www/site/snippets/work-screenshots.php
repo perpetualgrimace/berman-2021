@@ -47,10 +47,7 @@ $count = $images->count();
 
       <li class="screenshot-item g-col <?= $gridClass ?>">
         <? if ($image->link() != ''): ?><a class="screenshot-link" href="<?= $image->link() ?>"><? endif ?>
-        <img class="screenshot-img" data-src="<?= $imgUrl ?>" alt="" draggable="false">
-        <noscript>
-          <img class="screenshot-img" src="<?= $imgUrl ?>" alt="" draggable="false">
-        </noscript>
+          <img class="screenshot-img" src="<?= $imgUrl ?>" alt="" draggable="false" loading="lazy">
         <? if ($image->link() != ''): ?></a><? endif ?>
       </li>
 

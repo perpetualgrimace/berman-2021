@@ -28,8 +28,8 @@
 }
 .next-img {
   @include inflate;
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
+  object-position: center;
 }
 
 // interactions

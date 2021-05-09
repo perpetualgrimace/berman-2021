@@ -25,10 +25,7 @@ if ($work->page() != '') {
     </a>
 
     <? if ($thumbImg != NULL): ?>
-      <img class="home-thumb-img thumb-img" data-src="<?= $thumbImg->url() ?>" alt="" width="<?= $thumbImg->width() ?>" height="<?= $thumbImg->height() ?>">
-      <noscript>
-        <img class="home-thumb-img thumb-img" src="<?= $thumbImg->url() ?>" alt="" width="<?= $thumbImg->width() ?>" height="<?= $thumbImg->height() ?>">
-      </noscript>
+      <img class="home-thumb-img thumb-img" src="<?= $thumbImg->url() ?>" alt="" width="<?= $thumbImg->width() ?>" height="<?= $thumbImg->height() ?>" loading="lazy">
     <? endif ?>
 
     <div class="thumb-underlay"></div>

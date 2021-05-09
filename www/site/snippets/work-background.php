@@ -15,10 +15,7 @@ if ($section->background() != '') {
 
 <section class="work-background-section u-fullwidth">
   <? if ($img != NULL): ?>
-    <img class="work-background-img" data-src="<?= $img->url() ?>" alt="" draggable="false" width="<?= $img->width() ?>" height="<?= $img->height() ?>">
-    <noscript>
-      <img class="work-background-img" src="<?= $img->url() ?>" alt="" draggable="false" width="<?= $img->width() ?>" height="<?= $img->height() ?>">
-    </noscript>
+    <img class="work-background-img" src="<?= $img->url() ?>" alt="" draggable="false" width="<?= $img->width() ?>" height="<?= $img->height() ?>" loading="lazy">
   <? else: ?>
     <div class="g-columns">
       <h2 class="u-padding">Error: No image found for <?= $section->title() ?></h2>

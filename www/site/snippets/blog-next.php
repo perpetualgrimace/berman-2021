@@ -49,10 +49,7 @@ if ($next->nextImg() != '') {
 
   <!-- background image -->
   <? if ($nextImg != NULL): ?>
-    <div class="next-img u-margin-top-off" data-bg-src="<?= $nextImg->url() ?>"></div>
-    <noscript>
-      <div class="next-img u-margin-top-off" style="background-image: url(<?= $nextImg->url() ?>);"></div>
-    </noscript>
+    <img class="next-img u-margin-top-off" src="<?= $nextImg->url() ?>" draggable="false" loading="lazy" />
   <? endif ?>
 
 </section>

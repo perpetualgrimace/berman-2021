@@ -29,10 +29,7 @@ if ($authorCount == 1 && $page->template() != 'blog-berman140') {
 <a class="attribution u-margin-top-lg u-margin-bottom-sm" href="<?= $pages->find('blog')->url() . '#' . $author ?>">
 
   <div class="attribution-avatar">
-    <img class="attribution-img" data-src="<?= $authorImg ?>" alt="">
-    <noscript>
-      <img class="attribution-img" src="<?= $authorImg ?>" alt="">
-    </noscript>
+    <img class="attribution-img" src="<?= $authorImg ?>" alt="" loading="lazy">
   </div>
 
   <div class="attribution-caption u-margin-top-off"><span class="attribution-text">Written by </span><span class="attribution-name u-underline"><?= $authorName ?></span></div>
