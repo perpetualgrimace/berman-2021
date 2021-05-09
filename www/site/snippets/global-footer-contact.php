@@ -14,7 +14,7 @@ $email = $pages->find('contact')->email();
     <a class="footer-contact-link footer-link" href="mailto:<?= $email ?>">
       <svg class="footer-contact-svg" width="20px" height="13px" viewBox="0 3 20 13">
         <path d="M20,15.1587974 L20,3 L12.7190625,9.87723673 L20,15.1587974 L20,15.1587974 L20,15.1587974 Z M0,15.1587974 L7.28078125,9.87649721 L0,3 L0,15.1587974 L0,15.1587974 L0,15.1587974 Z M8.26167969,10.8038537 L0,16 L20,16 L11.738125,10.8038537 L10,12.4453799 L8.26167969,10.8038537 L8.26167969,10.8038537 L8.26167969,10.8038537 Z M0.6,3 L10,10.3597316 L19.4,3 L0.6,3 L0.6,3 L0.6,3 Z" fill="#2F3C4C"/>
-      </svg><span class="u-screenreader">Email us:</span> <?= $email ?>
+      </svg><span class="u-screenreader">Email us:</span><span class="footer-contact-link-text"><?= $email ?></span>
     </a>
   </li>
   <? /* <li class="footer-contact-item font-xs">

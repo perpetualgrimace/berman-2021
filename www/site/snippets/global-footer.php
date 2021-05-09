@@ -7,8 +7,8 @@
 
       <!-- navigation -->
       <div class="footer-nav g-col">
-        <h2>Berman Creative</h2>
-        <p class="font-xs u-margin-top u-margin-bottom">Boston, Massachusetts</p>
+        <h2 class="u-margin-top font-lg">Berman Creative</h2>
+        <p class="font-xs u-margin-top-sm u-margin-bottom-sm">Boston, Massachusetts</p>
       </div>
 
       <!-- contact -->
@@ -17,7 +17,7 @@
       </div>
 
       <!-- social -->
-      <div class="footer-social g-col g-6 u-left-right">
+      <div class="footer-social g-col g-6 u-left-right u-margin-bottom-sm">
         <? snippet('global-footer-social') ?>
       </div>
 
