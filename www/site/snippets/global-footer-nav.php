@@ -1,7 +1,7 @@
 <?
 
 // main menu items
-$items = $pages;
+$items = $pages->listed();
 
 ?>
 
