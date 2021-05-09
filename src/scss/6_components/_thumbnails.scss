@@ -112,14 +112,13 @@ ____div.thumb-underlay (like an overlay, but under)
   }
 
   // hover state
-  .thumb-item:hover,
-  .thumb-item:focus {
-    .thumb-link {
-      opacity: 1;
-    }
-    .thumb-img {
-      opacity: 0.4;
-    }
+  .thumb-item:hover {
+    .thumb-link { opacity: 1; }
+    .thumb-img { opacity: 0.4; }
+  }
+  .thumb-item:focus-within {
+    .thumb-link { opacity: 1; }
+    .thumb-img { opacity: 0.4; }
   }
 }
 
@@ -141,8 +140,11 @@ ____div.thumb-underlay (like an overlay, but under)
 
   .thumb-list {
     // thumbnails shrink when the container is hovered
-    &:hover .thumb-img,
-    &.is-focused-container .thumb-img {
+    &:hover .thumb-img {
+      opacity: 0.1;
+      transform: scale(0.9);
+    }
+    &:focus-within .thumb-img {
       opacity: 0.1;
       transform: scale(0.9);
     }
@@ -159,9 +161,23 @@ ____div.thumb-underlay (like an overlay, but under)
 
 
   // actively hovered item gets hover treatment
-  .thumb-item:hover,
-  .is-focused-container .is-focused-parent {
+  .thumb-item:hover {
+    .thumb-link {
+      opacity: 1;
+      transform: scale(1);
+    }
+    .thumb-underlay {
+      @include brand-gradient;
+      opacity: 1;
+    }
 
+    // don't scale down, blend with background color
+    .thumb-img {
+      opacity: 0.25;
+      transform: scale(1);
+    }
+  }
+  .thumb-item:focus-within {
     .thumb-link {
       opacity: 1;
       transform: scale(1);
