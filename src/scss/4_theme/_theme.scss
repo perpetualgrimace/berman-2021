@@ -148,17 +148,6 @@ img::selection {
   background: rgba($primary-color, 0.5);
 }
 
-// focus style
-:focus {
-  outline: none;
-  background: rgba($white, 0.35);
-}
-
-
-main:focus {
-  background: $white;
-}
-
 .mfp-wrap:focus {
   background: none;
 }
