@@ -2,11 +2,11 @@
   <div class="g-columns">
     <div class="g-col">
 
-      <h2 class="display alpha"><span class="u-screenreader">Our blog: </span>
+      <h2 class="display font-xxl"><span class="u-screenreader">Our blog: </span>
         <? /* = $pages->find('blog')->headline() */ ?>
       </h2>
 
-      <div class="heading gamma u-margin-top u-margin-bottom-lg" role="presentation">The Berman blog</div>
+      <div class="heading font-lg u-margin-top u-margin-bottom-lg" role="presentation">The Berman blog</div>
 
       <ul class="blog-list">
         <? /* foreach($articles as $article) {

@@ -5,7 +5,7 @@
    <? if($device == 'mobile'): ?><div class="home-hero-mobile"><? endif ?>
 
       <div class="header g-columns u-left-center">
-        <h1 class="home-headline display giga" style="transform: translateY(1em); opacity: 0;"><?= $page->headline() ?></h1>
+        <h1 class="home-headline display font-xxxl" style="transform: translateY(1em); opacity: 0;"><?= $page->headline() ?></h1>
       </div>
 
       <div class="js-wp-nav-trigger"></div>

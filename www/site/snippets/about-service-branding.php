@@ -57,7 +57,7 @@
 
           <? foreach($siblings as $sibling): ?>
             <li>
-              <a class="milli" href="<?= $sibling->url() ?>"><?= $sibling->title() ?></a>
+              <a class="font-xs" href="<?= $sibling->url() ?>"><?= $sibling->title() ?></a>
             </li>
           <? endforeach ?>
 

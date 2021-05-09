@@ -21,7 +21,7 @@ $services = ['Strategy', 'Assets', 'Experiences'];
         <h3 class="service-heading display u-margin-top"><?= $page->$serviceHeadline() ?></h3>
         <ul class="service-list">
           <? foreach($page->$serviceList()->yaml() as $serviceItem): ?>
-            <li class="milli service-item"><?= $serviceItem ?></li>
+            <li class="font-xs service-item"><?= $serviceItem ?></li>
           <? endforeach ?>
         </ul>
       </div>

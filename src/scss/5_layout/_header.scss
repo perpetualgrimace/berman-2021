@@ -30,13 +30,13 @@
 
 // scale blog title to viewport
 .blog-title {
-  font-size: #{ ($beta + $gamma) / 2 };
+  font-size: #{ ($font-xl + $font-lg) / 2 };
 
   @media (min-width: $sm2) {
     font-size: 5vw;
   }
   @media (min-width: $m3) {
-    font-size: $alpha;
+    font-size: $font-xxl;
   }
 }
 

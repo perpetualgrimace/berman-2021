@@ -27,12 +27,12 @@ ________ p.quote-attribution
 
 .quote-blockquote:before {
   @include longer-shadow;
-  font-size: $giga * 1.5;
+  font-size: $font-xxxl * 1.5;
   top: 2.75rem;
   left: 0;
 
   @media (min-width: $m2) {
-    font-size: $giga * 2;
+    font-size: $font-xxxl * 2;
     top: 3.5rem;
     left: -1rem;
   }

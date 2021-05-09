@@ -26,7 +26,7 @@ foreach($page->authors()->toStructure()->limit(3) as $author):
 
 
 <div class="container related">
-  <h2 class="gamma">More from <?= $authorName ?>:</h2>
+  <h2 class="font-lg">More from <?= $authorName ?>:</h2>
 
   <ul class="vertical-list u-margin-top-off-children">
     <? foreach($articles as $article):

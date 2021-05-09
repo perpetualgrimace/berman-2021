@@ -15,7 +15,7 @@ if ($page->isHomePage()) {
 
     <!-- title text -->
     <? if ($page->isHomePage()): ?>
-      <h2 class="display alpha u-margin-bottom"><span class="u-screenreader">Our </span>Work</h2>
+      <h2 class="display font-xxl u-margin-bottom"><span class="u-screenreader">Our </span>Work</h2>
     <? endif ?>
 
     <!-- the grid -->

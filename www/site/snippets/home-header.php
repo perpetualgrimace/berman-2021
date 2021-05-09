@@ -4,9 +4,9 @@
    <div class="home-hero g-columns">
 
       <div class="g-col u-padding-top-off">
-        <h1 class="header-headline home-headline display giga"><?= $page->headline() ?></h1>
+        <h1 class="header-headline home-headline display font-xxxl"><?= $page->headline() ?></h1>
 
-        <p class="gamma home-header-subhead"><?= $page->subhead() ?></p>
+        <p class="font-lg home-header-subhead"><?= $page->subhead() ?></p>
       </div>
 
       <div class="js-wp-nav-trigger"></div>

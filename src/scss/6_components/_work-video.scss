@@ -43,7 +43,7 @@ html.no-js .video-item + .video-item {
 
   // link style
   & > a {
-    font-size: $beta;
+    font-size: $font-xl;
     line-height: 0.1;
     padding: 0 ($gutter * 0.5) ($gutter * 0.5) ($gutter * 0.5);
   }

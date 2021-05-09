@@ -27,12 +27,12 @@ if($page->sidebarTitle() != '') {
     <? if ($siblings != ''): ?>
       <aside class="parent-sidebar g-col g-3">
 
-          <h2 class="gamma"><?= $sidebarTitle ?></h2>
+          <h2 class="font-lg"><?= $sidebarTitle ?></h2>
 
           <ul class="vertical-list u-margin-top-sm">
             <? foreach($siblings as $sibling): ?>
               <li>
-                <a href="<?= $sibling->url() ?>" class="milli"><?= $sibling->title() ?></a>
+                <a href="<?= $sibling->url() ?>" class="font-xs"><?= $sibling->title() ?></a>
               </li>
             <? endforeach ?>
           </ul>

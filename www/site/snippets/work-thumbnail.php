@@ -19,7 +19,7 @@ if ($work->thumbImg() != '') {
 
     <a href="<?= $work->url() ?>" class="thumb-link">
       <div class="thumb-caption">
-        <span class="thumb-title display gamma"><?= $work->title() ?></span><span class="u-screenreader">: </span><span class="thumb-meta milli"><?= $work->headline() ?></span>
+        <span class="thumb-title display font-lg"><?= $work->title() ?></span><span class="u-screenreader">: </span><span class="thumb-meta font-xs"><?= $work->headline() ?></span>
       </div>
     </a>
 

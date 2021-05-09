@@ -7,7 +7,7 @@ else { $article = $page; }
 // the article is in a series
 if ($article->series() != ''): ?>
 
-  <div class="series-label gamma">
+  <div class="series-label font-lg">
     <?= $pages->find('blog/series/' . $article->series())->title();
     if ($article->seriesNum() != 'unnumbered' && $article->intendedTemplate() != 'blog-berman140') {
       echo ', #' . $article->seriesNum();

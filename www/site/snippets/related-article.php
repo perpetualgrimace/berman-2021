@@ -4,7 +4,7 @@ if (isset($showSeriesName)) { $showSeriesName = $showSeriesName; }
 else { $showSeriesName = TRUE; }
 ?>
 
-<li class="milli">
+<li class="font-xs">
   <a href="<?= $article->url() ?>"><?
 
     /* Three possible formats:

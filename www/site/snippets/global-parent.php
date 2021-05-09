@@ -10,13 +10,13 @@
 
   <aside class="parent-sidebar g-col g-3">
     <? if ($page->sidebarTitle() != ''): ?>
-      <h2 class="gamma"><?= $page->sidebarTitle() ?></h2>
+      <h2 class="font-lg"><?= $page->sidebarTitle() ?></h2>
     <? endif ?>
 
     <ul class="vertical-list u-margin-top-sm">
       <? foreach($children as $child): ?>
         <li>
-          <a href="<?= $child->url() ?>" class="milli"><?= $child->title() ?></a>
+          <a href="<?= $child->url() ?>" class="font-xs"><?= $child->title() ?></a>
         </li>
       <? endforeach ?>
     </ul>

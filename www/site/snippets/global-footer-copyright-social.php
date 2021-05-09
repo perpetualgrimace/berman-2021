@@ -1,4 +1,4 @@
-<div class="footer-copyright-text milli"><?= kirbytext($site->copyright()) ?></div>
+<div class="footer-copyright-text font-xs"><?= kirbytext($site->copyright()) ?></div>
 
 <h3 class="u-screenreader">Follow Berman:</h3>
 

@@ -1,7 +1,7 @@
 <section class="g-columns">
   <div id="method" class="g-columns <?= $alignment ?>">
 
-    <article class="gamma col-70pc">
+    <article class="font-lg col-70pc">
       <?= kirbytext($page->method()) ?>
     </article>
 

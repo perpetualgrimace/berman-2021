@@ -20,7 +20,7 @@ if ($work->page() != '') {
 
     <a href="<?= $link ?>" class="thumb-link">
       <div class="thumb-caption">
-        <span class="thumb-title display gamma"><?= $work->client() ?></span><? if ($work->caption() != ''): ?><span class="u-screenreader">: </span><span class="thumb-meta milli"><?= $work->caption() ?></span><? endif ?>
+        <span class="thumb-title display font-lg"><?= $work->client() ?></span><? if ($work->caption() != ''): ?><span class="u-screenreader">: </span><span class="thumb-meta font-xs"><?= $work->caption() ?></span><? endif ?>
       </div>
     </a>
 

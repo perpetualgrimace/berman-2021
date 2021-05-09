@@ -46,9 +46,9 @@ $responses = $page->responses()->toStructure();
       </a>
 
       <div class="card-caption b140-card-caption">
-        <h2 class="card-caption-name gamma"><?= $personName ?></h2>
-        <p class="card-caption-title milli u-margin-top-off"><?= $personTitle ?></p>
-        <p class="card-caption-response delta u-margin-top-sm"><?= $responseText ?></p>
+        <h2 class="card-caption-name font-lg"><?= $personName ?></h2>
+        <p class="card-caption-title font-xs u-margin-top-off"><?= $personTitle ?></p>
+        <p class="card-caption-response font-md u-margin-top-sm"><?= $responseText ?></p>
       </div>
 
     </div>

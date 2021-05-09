@@ -11,7 +11,7 @@ blockquote {
     position: absolute;
     content: '\201F';
     font-family: georgia, serif;
-    font-size: $giga * 1.25;
+    font-size: $font-xxxl * 1.25;
     top: 2.85rem;
     left: -2.625rem;
     line-height: 0.01rem;
@@ -22,14 +22,14 @@ blockquote {
   * {
     @include medium-font;
     line-height: 1;
-    font-size: $gamma;
+    font-size: $font-lg;
   }
 
   // the attribution
   * + *:last-child {
     @include body-font;
     display: block;
-    font-size: $delta;
+    font-size: $font-md;
     text-align: right;
   }
 }

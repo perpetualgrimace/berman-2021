@@ -23,7 +23,7 @@ if($quote->quoteImg() != '') {
   <div class="g-columns u-padding-top-xl u-padding-bottom-xl">
     <div class="g-col g-8 u-margins-auto">
       <blockquote class="quote-blockquote">
-        <p class="quote-text beta"><?= $quote->text() ?></p>
+        <p class="quote-text font-xl"><?= $quote->text() ?></p>
         <p class="quote-attribution">&mdash;<?= $quote->title() ?></p>
       </blockquote>
       </div>

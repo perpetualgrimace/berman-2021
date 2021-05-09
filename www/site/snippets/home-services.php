@@ -24,7 +24,7 @@ $services = ['Strategy', 'Assets', 'Experiences'];
                 'filename' => $serviceIcon,
                 'class' => 'service-image u-margins-auto'
                 ]) ?>
-              <span class="service-heading display gamma u-margin-top-sm u-margin-bottom-sm" href="<?= $servicesPage->url() . '#services' ?>"><?= $servicesPage->$serviceHeadline() ?></span>
+              <span class="service-heading display font-lg u-margin-top-sm u-margin-bottom-sm" href="<?= $servicesPage->url() . '#services' ?>"><?= $servicesPage->$serviceHeadline() ?></span>
             </a>
           </li>
         <? endforeach ?>

@@ -21,7 +21,7 @@
   // base style for nav elements
   * {
     text-transform: uppercase;
-    font-size: $milli;
+    font-size: $font-xs;
     color: $raisin;
   }
 }
@@ -238,7 +238,7 @@
   right: 0;
 
   &-text {
-    font-size: $delta;
+    font-size: $font-md;
   }
 
   // active state theming

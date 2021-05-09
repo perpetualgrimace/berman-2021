@@ -9,7 +9,7 @@ $works = $pages->find('work')->featuredWork()->toStructure();
 
   <!-- title text -->
   <div class="g-columns u-left-center u-margin-bottom">
-    <h2 class="display alpha"><span class="u-screenreader">Our </span>Work</h2>
+    <h2 class="display font-xxl"><span class="u-screenreader">Our </span>Work</h2>
   </div>
 
   <!-- the grid -->

@@ -305,7 +305,7 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
 // "1 of X" counter
 .mfp-counter {
    color: $mfp-controls-text-color;
-   font-size: $milli;
+   font-size: $font-xs;
    line-height: 1rem * 1.5;
    text-align: center;
    white-space: nowrap;

@@ -39,12 +39,12 @@
 
   // smaller screens
   @media (max-width: $m2 - 0.001) {
-    font-size: $delta;
+    font-size: $font-md;
   }
 
   // tiny screens
   @media (max-width: $sm1 - 0.001) {
-    font-size: $milli;
+    font-size: $font-xs;
   }
 }
 

@@ -23,7 +23,7 @@ $jsDataAttrPrev = 'data-js="booklet-slider-prev-' . $section->idNumber() . '"';
   <div class="g-columns u-vertical-center">
 
     <!-- caption -->
-    <article class="booklet-caption g-col g-4 delta">
+    <article class="booklet-caption g-col g-4 font-md">
       <?= kirbytext($section->text()) ?>
     </article>
 

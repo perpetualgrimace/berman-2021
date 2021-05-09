@@ -16,7 +16,7 @@ $principles = ['integrity', 'ability', 'spirit'];
     ?>
       <div class="g-col g-4">
         <h3 class="heading"><?= $principleHeadline ?></h3>
-        <p class="delta">
+        <p class="font-md">
           <?= $page->$principle() ?>
         </p>
       </div>

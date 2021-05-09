@@ -7,7 +7,7 @@
     <? endif ?>
 
     <!-- main text -->
-    <div class="delta">
+    <div class="font-md">
       <?= kirbytext($section->text()) ?>
     </div>
 

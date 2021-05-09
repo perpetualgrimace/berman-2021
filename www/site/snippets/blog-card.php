@@ -65,7 +65,7 @@ if ($article->thumbImg() != '') {
     </a>
 
     <div class="card-caption">
-       <a class="card-title display gamma" href="<?= $article->url() ?>"><?= $article->title() ?></a>
+       <a class="card-title display font-lg" href="<?= $article->url() ?>"><?= $article->title() ?></a>
        <p class="card-meta u-margin-top-sm">Written by <a class="card-meta-link u-underline-off" href="<?= $authorLink ?>"><? snippet('icon-author') ?> <span class="u-underline"><?= $authorName ?></span></a>
        <? if($article->series() != ''): ?> in <a class="card-meta-link card-meta-series-link u-underline-off" href="<?= $seriesLink ?>"> <? snippet('icon-series') ?> <span class="u-underline"><?= $seriesTitle ?></span></a><? endif ?></p>
     </div>

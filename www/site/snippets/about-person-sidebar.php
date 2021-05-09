@@ -5,12 +5,12 @@
 
 <div class="container u-margin-top-off">
 
-   <h3 class="delta">Written by <?= $page->Firstname(); ?>:</h3>
+   <h3 class="font-md">Written by <?= $page->Firstname(); ?>:</h3>
 
    <ul class="vertical-list u-margin-top-off-children">
 
       <? foreach($blogList->flip()->paginate(5) as $blog): ?>
-        <li class="milli">
+        <li class="font-xs">
           <a href="<?= $blog->url() ?>">
             <?= $blog->title() ?>
           </a>

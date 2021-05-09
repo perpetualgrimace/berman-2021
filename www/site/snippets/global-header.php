@@ -21,7 +21,7 @@
 
           // subhead=
           if ($page->subhead() != ''): ?><span class="u-screenreader">: </span>
-            <span class="header-subhead heading gamma u-margin-top">
+            <span class="header-subhead heading font-lg u-margin-top">
               <?= $page->subhead() ?>
             </span>
           <? endif ?>

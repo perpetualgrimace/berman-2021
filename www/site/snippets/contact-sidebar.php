@@ -1,5 +1,5 @@
 
-<dl class="milli links contact-links vertical-list">
+<dl class="font-xs links contact-links vertical-list">
 
   <div class="grid-1-2-1 u-margin-bottom-off">
 

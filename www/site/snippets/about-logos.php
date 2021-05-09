@@ -7,7 +7,7 @@ $logos = $pages->find('about/logos')->images()->filterBy('extension', 'svg');
 <section class="section">
   <div class="g-columns u-left">
 
-    <div class="g-col g-9 gamma u-margins-auto u-left-center">
+    <div class="g-col g-9 font-lg u-margins-auto u-left-center">
       <?= $page->clients()->kt() ?>
     </div>
 

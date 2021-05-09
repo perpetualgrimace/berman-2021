@@ -44,39 +44,39 @@ h1, h2, h3, h4, h5, h6 {
 
 // type size defaults
 h1 {
-  font-size: $beta;
+  font-size: $font-xl;
 
   @media (min-width: $m2) {
-    font-size: $alpha;
+    font-size: $font-xxl;
   }
 }
 
 h2 {
-  font-size: #{ ($beta + $delta) / 2 };
+  font-size: #{ ($font-xl + $font-md) / 2 };
 
   @media (min-width: $sm2) {
-    font-size: $beta;
+    font-size: $font-xl;
   }
 }
 
 h3 {
-  font-size: $gamma;
+  font-size: $font-lg;
 
   @media (min-width: $sm2) {
-    font-size: #{ ($beta + $delta) / 2 };
+    font-size: #{ ($font-xl + $font-md) / 2 };
   }
 }
 
-p, li    { font-size: $gamma; }
-h4, h5, h6   { font-size: $delta; }
+p, li    { font-size: $font-lg; }
+h4, h5, h6   { font-size: $font-md; }
 
 small,
 label,
 dd * {
-  font-size: $epsilon;
+  font-size: $font-sm;
 
   @media (min-width: $m2) {
-    font-size: $milli;
+    font-size: $font-xs;
   }
 }
 
@@ -86,43 +86,40 @@ code {
 
 
 // type size overrides
-.giga {
-  font-size: $alpha;
+.font-xxxl {
+  font-size: $font-xxl;
 
-  @media (min-width: $m1) {
-    font-size: 6.5vw;
-  }
   @media (min-width: $m3) {
-    font-size: $giga;
+    font-size: $font-xxxl;
   }
 }
-.alpha {
-  font-size: $beta;
+.font-xxl {
+  font-size: $font-xl;
 
   @media (min-width: $m2) {
-    font-size: $alpha;
+    font-size: $font-xxl;
   }
 }
-.beta  {
-  font-size: $beta;
+.font-xl  {
+  font-size: $font-xl;
 }
-.gamma,
-.gamma p,
-.gamma li {
-  font-size: $gamma;
+.font-lg,
+.font-lg p,
+.font-lg li {
+  font-size: $font-lg;
 }
-.delta,
-.delta p,
-.delta li {
-  font-size: $delta;
+.font-md,
+.font-md p,
+.font-md li {
+  font-size: $font-md;
 }
-.milli,
-.milli p,
-.milli li  {
-  font-size: $epsilon;
+.font-xs,
+.font-xs p,
+.font-xs li  {
+  font-size: $font-sm;
 
   @media (min-width: $m2) {
-    font-size: $milli;
+    font-size: $font-xs;
   }
 }
 

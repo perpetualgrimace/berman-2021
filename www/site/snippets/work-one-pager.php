@@ -21,7 +21,7 @@ $jsDataAttr = 'data-js="one-pager-' . $section->idNumber() . '"';
   <div class="u-vertical-center g-columns">
 
     <!-- caption -->
-    <div class="one-pager-caption g-col g-4 delta">
+    <div class="one-pager-caption g-col g-4 font-md">
       <?= kirbytext($section->text()) ?>
     </div>
 

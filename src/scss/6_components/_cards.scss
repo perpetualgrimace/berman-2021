@@ -70,7 +70,7 @@
 // small screen treatment
 @media (max-width: $m1 - 0.001) {
   .card-title {
-    font-size: $delta * 1.25; // when 6 font sizes aren't enough :/
+    font-size: $font-md * 1.25; // when 6 font sizes aren't enough :/
   }
   .card-meta {
     display: none;
@@ -121,7 +121,7 @@
 }
 
 .card-meta {
-  font-size: $epsilon;
+  font-size: $font-sm;
 }
 
 ////////////////////////////////
