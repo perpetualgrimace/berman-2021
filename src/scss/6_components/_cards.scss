@@ -116,7 +116,7 @@
 .card-meta-link:active  {
   > .card-icon path,
   > .card-icon circle {
-    fill: $secondary-color-dark;
+    fill: $primary-dark;
   }
 }
 
@@ -161,7 +161,7 @@
     transform: scale(1.125);
 
     + .card-caption > .card-caption-name {
-      color: $brand-color;
+      color: $primary-color;
     }
   }
 }

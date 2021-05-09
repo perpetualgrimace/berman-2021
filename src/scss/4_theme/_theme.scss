@@ -6,11 +6,11 @@
 main,
 .announcement {
   background: $white;
-  color: $black;
+  color: $raisin;
 
   // links
   a {
-    color: $brand-color;
+    color: $primary-color;
 
     &:hover,
     &:focus {
@@ -18,7 +18,7 @@ main,
     }
 
     &:active {
-      color: $secondary-color-dark;
+      color: $primary-dark;
     }
   }
 
@@ -39,7 +39,7 @@ header ~ * {
 
 // remember to move this into its own file if it gets unruly
 .t-dark {
-  background: $black;
+  background: $raisin;
   color: $white;
 
   a {
@@ -110,7 +110,7 @@ footer {
 section.fullwidth + section.fullwidth:not(.u-margin-top-off):before {
   @include pseudo;
   position: relative;
-  background: $black;
+  background: $raisin;
   height: #{$stroke-thick / 2};
   max-width: $max-container-width;
   width: 90%;
@@ -142,16 +142,16 @@ body.work section.fullwidth:before {
 // selection
 ::selection {
   color: $white;
-  background: rgba($brand-color, 0.9);
+  background: rgba($primary-color, 0.9);
 }
 img::selection {
-  background: rgba($brand-color, 0.5);
+  background: rgba($primary-color, 0.5);
 }
 
 // focus style
 :focus {
   outline: none;
-  background: rgba($light-1, 0.35);
+  background: rgba($white, 0.35);
 }
 
 

@@ -22,7 +22,7 @@
   * {
     text-transform: uppercase;
     font-size: $milli;
-    color: $black;
+    color: $raisin;
   }
 }
 
@@ -51,7 +51,7 @@
 // not active page
 .nav-logo {
   svg path {
-    fill: $black;
+    fill: $raisin;
   }
 
   // standard
@@ -82,7 +82,7 @@
     top: 0;
     left: 0;
     z-index: -10;
-    background: $black;
+    background: $raisin;
 
     // prevent page jump
     &:before {
@@ -120,7 +120,7 @@
 
   // active page
   &.is-active-pg {
-    color: $brand-color;
+    color: $primary-color;
   }
 }
 
@@ -140,7 +140,7 @@
 
     &.is-active-pg {
       color: $white;
-      background: $brand-color;
+      background: $primary-color;
     }
 
     &:hover, &:active, &:focus {
@@ -199,7 +199,7 @@
 // dropdown link style
 .dropdown-link {
   display: block; // respect padding
-  background: $black;
+  background: $raisin;
   color: $white;
   line-height: 2rem;
   padding: 0.125rem 1.5rem 0.25rem;
@@ -211,7 +211,7 @@
 
   // active page
   &.is-active-pg {
-    background: $dark-2;
+    background: $raisin;
   }
 
 }
@@ -243,7 +243,7 @@
 
   // active state theming
   &.is-active {
-    background: $black;
+    background: $raisin;
 
     .hamburger-bun {
       background: $white;
@@ -271,7 +271,7 @@
     width: ($stroke-width * 9);
     height: $stroke-width;
     border-radius: 1px;
-    background: $black;
+    background: $raisin;
 
     & + & {
       margin-top: ($stroke-width * 1.5);

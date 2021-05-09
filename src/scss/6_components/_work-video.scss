@@ -20,7 +20,7 @@ html.no-js .video-item + .video-item {
 // ignore parent padding via positioning
 .video-item {
   top: 0;
-  background: black;
+  background: $raisin;
 }
 
 // custom pager

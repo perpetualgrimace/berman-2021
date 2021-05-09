@@ -18,10 +18,10 @@ outline: none;
    box-shadow: inset 0 0 0 1px $secondary-color;
   }
   &:focus {
-   border-color: $brand-color;
+   border-color: $primary-color;
    box-shadow:
-   inset 0 0 0 1px $brand-color,
-   0 0 0.25em rgba($brand-color, 0.5);
+   inset 0 0 0 1px $primary-color,
+   0 0 0.25em rgba($primary-color, 0.5);
   }
 }
 
@@ -31,7 +31,7 @@ label {
   padding-bottom: $gutter; // extend clickable area
   margin-top: -0.75rem; // compensate for added height in the grid
   margin-bottom: -0.75rem; // compensate for padding-bottom
-  color: $brand-color;
+  color: $primary-color;
 }
 
 // contact form
@@ -49,9 +49,9 @@ label {
   width: 100%;
   max-width: 100%;
   border-radius: $radius;
-  background: $brand-color;
-  background-image: radial-gradient(ellipse at top center, rgba($white, 0.15) 0, rgba($black, 0) 100%); // radial glossy overlay
-  border: $stroke-thin solid $brand-color;
+  background: $primary-color;
+  background-image: radial-gradient(ellipse at top center, rgba($white, 0.15) 0, rgba($raisin, 0) 100%); // radial glossy overlay
+  border: $stroke-thin solid $primary-color;
 
 
   &:hover {
@@ -63,8 +63,8 @@ label {
     @include box-shadow-focus;
   }
   &:active {
-    background-color: $secondary-color-dark;
-    border-color: $secondary-color-dark;
+    background-color: $primary-dark;
+    border-color: $primary-dark;
   }
 
   // icon
@@ -116,7 +116,7 @@ textarea {
   padding: 0.25rem 0.75rem 0.5rem;
   width: 100%;
   background: $white;
-  color: $black;
+  color: $raisin;
   border: 1px solid $shadow;
   border-radius: $radius;
 

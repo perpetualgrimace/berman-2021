@@ -180,7 +180,7 @@
 @mixin box-shadow-xl($shadow-color: $shadow) {
   box-shadow: 0 1px 1em $shadow-color;
 }
-@mixin box-shadow-focus($shadow-color: rgba($brand-color, 0.5)) {
+@mixin box-shadow-focus($shadow-color: rgba($primary-color, 0.5)) {
   box-shadow: 0 0 0.25em $shadow-color;
 }
 
@@ -229,7 +229,7 @@
 // button base style
 ////////////////////////////////
 
-@mixin button-base($background-color: $brand-color, $text-color: $white) {
+@mixin button-base($background-color: $primary-color, $text-color: $white) {
   @include font-smoothing;
   display: inline-block;
   margin-top: 1.5em;
@@ -251,7 +251,7 @@
 
 @mixin brand-gradient {
   background-color: $secondary-color;
-  background-image: linear-gradient(315deg, $secondary-color 10%, $brand-color 90%);
+  background-image: linear-gradient(315deg, $secondary-color 10%, $primary-color 90%);
   transform: scale(1);
 }
 
@@ -259,12 +259,12 @@
 // long shadow hover effect
 ////////////////////////////////
 
-@mixin fuzzy-shadow($color: $brand-color) {
+@mixin fuzzy-shadow($color: $primary-color) {
   text-shadow:
     0 1px 1.125em rgba($color, 0.4);
 }
 
-@mixin long-shadow($color: $brand-color) {
+@mixin long-shadow($color: $primary-color) {
   text-shadow:
     // 0 1px 1.125em rgba($color, 0.4), // awkward transition on chrome 58
     1px 1px 0 $color,
@@ -272,7 +272,7 @@
     3px 3px 0 $color;
 }
 
-@mixin longer-shadow($color: $brand-color) {
+@mixin longer-shadow($color: $primary-color) {
   text-shadow:
     // 0 1px 1.125em rgba($color, 0.4), // awkward transition on chrome 58
     1px 1px 0 $color,

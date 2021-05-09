@@ -2,7 +2,7 @@
 .announcement-wrapper {
   @include absolute-expand;
   position: fixed;
-  background: rgba($black, 0.85);
+  background: rgba($raisin, 0.85);
   z-index: 999; // inentionally excessive
 
   &.is-hidden {
@@ -24,7 +24,7 @@
 }
 
 h1:focus {
-  background: black;
+  background: $raisin;
 }
 
 

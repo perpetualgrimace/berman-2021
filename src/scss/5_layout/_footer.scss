@@ -22,7 +22,7 @@
     &,
     &:hover,
     &:focus {
-      color: $light-2;
+      color: $white;
     }
   }
 }
@@ -147,7 +147,7 @@
   }
 
   .footer-nav-item + .footer-nav-item {
-    border-top: 1px solid $gray;
+    border-top: 1px solid $primary-dark;
   }
 
   // offset grid

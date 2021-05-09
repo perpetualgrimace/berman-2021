@@ -5,7 +5,7 @@
 // OG button
 .button {
   @include button-base;
-  background-image: radial-gradient(ellipse at top center, rgba($white, 0.15) 0, rgba($black, 0) 100%); // radial glossy overlay
+  background-image: radial-gradient(ellipse at top center, rgba($white, 0.15) 0, rgba($raisin, 0) 100%); // radial glossy overlay
 
   &:hover, &:focus {
     background-color: $secondary-color;
@@ -15,19 +15,19 @@
     @include box-shadow-focus;
   }
   &:active {
-    background-color: $secondary-color-dark;
-    border-color: $secondary-color-dark;
+    background-color: $primary-dark;
+    border-color: $primary-dark;
   }
 }
 
 // inverted
 .button-inverted {
-  @include button-base($white, $brand-color);
+  @include button-base($white, $primary-color);
   @include box-shadow;
-  background-image: linear-gradient(to bottom, $white 0%,rgba($black, 0.05) 100%); // linear glossy overlay
+  background-image: linear-gradient(to bottom, $white 0%,rgba($raisin, 0.05) 100%); // linear glossy overlay
 
   &:hover, &:focus {
-    color: $secondary-color-dark !important;
+    color: $primary-dark !important;
   }
   &:active {
     color: $secondary-color !important;

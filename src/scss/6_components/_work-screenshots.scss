@@ -2,10 +2,10 @@
 .work-screenshot-section {
   padding-left: $gutter;
   padding-right: $gutter;
-  background: rgba($light-1, 0.5);
+  background: rgba($white, 0.5);
 
   &.default-background {
-    background-color: rgba($light-1, 0.5);
+    background-color: rgba($white, 0.5);
   }
   &.twitter-background {
     background-color: $twitter-color;

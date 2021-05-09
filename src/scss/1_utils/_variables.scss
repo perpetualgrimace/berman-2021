@@ -2,25 +2,20 @@
 // colors
 ////////////////////////////////
 
-$brand-color: #2629A8;
+$primary-color: #A7BACF;
+$primary-light: #C0CEDD;
+$primary-dark:  #2F3C4C;
 
 $secondary-color: #6dbfac;
-$secondary-color-light: #C9E4DC;
-$secondary-color-dark: #009F80;
 
 $error-color: #D73800;
 
-$black:   #201F2D;
-$dark-2:  #444353;
-$dark-1:  #686879;
-$gray:    #8C8C9E;
-$light-2: #B0B1C4;
-$light-1: #D5D6E9;
+$raisin:  #23262D;
 $white:   #FFFFFF;
 
-$shadow: rgba($black, 0.5);
-$shadow-subtle : rgba($black, 0.25);
-$shadow-dark : rgba($black, 0.75);
+$shadow: rgba($raisin, 0.5);
+$shadow-subtle : rgba($raisin, 0.25);
+$shadow-dark : rgba($raisin, 0.75);
 
 $philo-trash    : #91cb55;
 $beacon-blue    : #0065a4;
