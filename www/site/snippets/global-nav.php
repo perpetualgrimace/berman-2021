@@ -36,28 +36,6 @@ $menutext = 'menu';
     </a>
 
 
-    <!-- social media icons -->
-    <ul class="nav-social-list">
-    <?
-
-    // define social media icons in an array
-    $social_media = ['twitter', 'facebook', 'instagram'];
-
-    foreach($social_media as $social):
-      $snippet = 'global-nav-' . $social;
-
-    ?>
-
-      <li class="nav-social-item">
-        <a class="nav-social-link nav-social-link-<?= $social ?>" href="http://<?= $social ?>.com/<?= $pages->find('contact')->$social() ?>" tabindex="-1">
-          <? snippet($snippet) ?><span class="u-screenreader"><?= $social ?></span>
-        </a>
-      </li>
-
-    <? endforeach ?>
-    </ul>
-
-
     <!-- main nav -->
     <ul id="nav" class="nav-list is-collapsed">
 
