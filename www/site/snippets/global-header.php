@@ -4,7 +4,7 @@
 
   <? snippet('header-nav') ?>
 
-  <div class="g-container">
+  <div class="header-wrapper g-container">
     <div class="g-columns">
       <div class="g-col">
 

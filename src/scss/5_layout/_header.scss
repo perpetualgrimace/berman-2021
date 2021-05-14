@@ -10,7 +10,7 @@
   min-height: 24.5rem;
   z-index: 12;
   overflow: hidden;
-  background-color: $primary-color;
+  background-color: $primary-dark;
 }
 
 // row
@@ -78,6 +78,9 @@ body.contact .hero-img {
 
 .home-header {
   background: $primary-color linear-gradient(180deg, $primary-color 0%, #EBE6DB 40%, #E0D6BF 70%, #7F7770 100%);
+}
+
+.header {
   align-items: flex-end;
 }
 
@@ -85,7 +88,7 @@ body.contact .hero-img {
   animation: scaleDown 1s ease-out;
 }
 
-.home-header-wrapper {
+.header-wrapper {
   display: flex;
 
   & > * {

@@ -22,7 +22,7 @@ Ctalink:
 
 ----
 
-Heroimg: linkedin-hero.jpg
+Heroimg: header.jpg
 
 ----
 
