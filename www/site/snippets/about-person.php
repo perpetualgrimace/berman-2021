@@ -2,7 +2,7 @@
    <div class="g-columns u-left">
 
    <article class="col-70pc">
-      <?= kirbytext($page->text()) ?>
+      <?= $page->text()->kt() ?>
    </article>
 
    <? $children = $page->children(); ?>

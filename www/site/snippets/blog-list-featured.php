@@ -25,7 +25,7 @@
            <h2><?= html($article->title()) ?></h2>
            <ul class="attribution inline-list">
               <? $author = $pages->find('about/people/' . $article->author()) ?>
-              <li><?= $article->date('m.d.Y') ?></li>
+              <li><?= $article->date()->toDate('F d, Y') ?></li>
               <li> <?= $author->title() ?></li>
            </ul>
 
@@ -36,7 +36,7 @@
 
          <? else: ?>
 
-           <p><?= excerpt($article->text(), 150) ?></p>
+           <p><?= $article->text()->excerpt(150) ?></p>
            <a href="<?= $article->url() ?>" class="button">Read more</a>
 
          <? endif ?>

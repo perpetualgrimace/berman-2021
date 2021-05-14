@@ -24,7 +24,7 @@ else { $id = $field; }
   <div id="<?= $id ?>" class="g-columns<?= $alignment ?>">
     <article class="g-col g-6 font-md u-margins-auto">
 
-      <?= kirbytext($page->$field()) ?>
+      <?= $page->$field()->kt() ?>
 
     </article>
   </div>

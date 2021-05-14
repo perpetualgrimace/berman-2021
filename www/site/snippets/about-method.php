@@ -4,7 +4,7 @@
     <? if ($page->quote() != ''): ?>
 
       <article class="col-70pc">
-        <?= kirbytext($page->text()) ?>
+        <?= $page->text()->kt() ?>
 
         <div class="horizontal-figure follows-article">
           <div class="img"><span class="u-screenreader">concerns of the audience + core truth of the brand</span></div>
@@ -14,14 +14,14 @@
 
       <aside class="quote col-25pc u-margin-bottom-lg">
         <blockquote>
-          <?= kirbytext($page->quote()) ?>
+          <?= $page->quote()->kt() ?>
         </blockquote>
       </aside>
 
     <? else: ?>
 
       <article class="col-70pc">
-        <?= kirbytext($page->text()) ?>
+        <?= $page->text()->kt() ?>
       </article>
 
     <? endif ?>
@@ -31,7 +31,7 @@
   <div class="g-columns">
     <article class="col-75pc">
 
-      <?= kirbytext($page->textBlock()) ?>
+      <?= $page->textBlock()->kt() ?>
 
       <?php
       for($i = 1; $i < 8; $i++):
@@ -43,7 +43,7 @@
       <div class="method-stage">
         <div class="method-stage-icon method-stage<?= $i ?>-icon"></div>
         <div class="method-stage-caption">
-          <?= kirbytext($page->$stage()) ?>
+          <?= $page->$stage()->kt() ?>
         </div>
       </div>
       <? } endfor ?>

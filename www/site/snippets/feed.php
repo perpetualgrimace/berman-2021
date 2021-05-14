@@ -41,7 +41,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
         <? if($item->description() != ''): ?>
         <description><![CDATA[<?= $item->description() ?>]]></description>
         <? else: ?>
-        <description><![CDATA[<?= excerpt($item->text('150')) ?>]]></description>
+        <description><![CDATA[<?= $item->text()->excerpt(150) ?>]]></description>
         <? endif ?>
       <? endif ?>
 

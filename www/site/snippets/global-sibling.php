@@ -21,7 +21,7 @@ if($page->sidebarTitle() != '') {
   <div class="g-columns u-left">
 
     <article class="sibling-article g-col g-9">
-      <?= kirbytext($page->text()) ?>
+      <?= $page->text()->kt() ?>
     </article>
 
     <? if ($siblings != ''): ?>

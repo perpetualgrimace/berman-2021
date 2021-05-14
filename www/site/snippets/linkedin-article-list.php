@@ -22,7 +22,7 @@ if ($page->isHomePage()) {
             </a>
             <? if ($article->date() != ''): ?>
               <span class="u-screenreader">, posted </span>
-              <span class="in-article-meta font-xs"><?= $article->date() ?></span>
+              <span class="in-article-meta font-xs"><?= $article->date()->toDate('F d, Y') ?></span>
             <? endif ?>
           </li>
         <? endforeach ?>

@@ -2,10 +2,10 @@
    <article class="g-col g-9">
 
       <? if ($page->byline() != ''): ?>
-        <div class="byline"><em><?= kirbytext($page->byline()) ?></em></div>
+        <div class="byline"><em><?= $page->byline()->kt() ?></em></div>
       <? endif ?>
 
-      <?= kirbytext($page->text()) ?>
+      <?= $page->text()->kt() ?>
 
    </article>
 

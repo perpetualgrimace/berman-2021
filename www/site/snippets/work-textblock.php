@@ -8,7 +8,7 @@
 
     <!-- main text -->
     <div class="font-md">
-      <?= kirbytext($section->text()) ?>
+      <?= $section->text()->kt() ?>
     </div>
 
   </div>
