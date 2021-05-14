@@ -7,7 +7,7 @@ if ($page->isHomePage()) {
 
 ?>
 
-<section class="section">
+<section class="section g-container">
   <div class="g-columns">
     <div class="g-col g-6 u-margins-auto">
       <? if ($page->isHomePage()): ?>
