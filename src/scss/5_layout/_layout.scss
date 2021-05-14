@@ -11,3 +11,11 @@
     flex: 1;
   }
 }
+
+// hack work list into place
+body.work-list section {
+  margin-top: calc(#{$stroke-width} - #{$gutter * 2}) !important;
+}
+body.work-list footer {
+  margin-top: calc(#{$stroke-width} - #{$gutter}) !important;
+}
