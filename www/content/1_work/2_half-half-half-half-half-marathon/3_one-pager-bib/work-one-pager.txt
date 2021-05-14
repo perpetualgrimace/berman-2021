@@ -1,0 +1,18 @@
+Title: One Pager/Bib
+
+----
+
+Idnumber: 1
+
+----
+
+Text: Printed materials included a poster  and a schedule with course orientation and a tear-off runner bib.
+
+----
+
+Pages:
+
+-
+  pages: halfx5-marathon-poster-1.jpg
+-
+  pages: half-half-half-half-half-marathon-bib-1.jpg

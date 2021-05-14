@@ -1,0 +1,30 @@
+Media: brandbook
+
+----
+
+Text: As Philo began reaching out to multiple audiences, we created brand guidelines that Philo's partners and employees can embrace. Earnest without being serious, the brand book is more trail map than rule book.
+
+----
+
+Idnumber: 1
+
+----
+
+Title: Brand book
+
+----
+
+pages:
+
+-
+  pages: 1.jpg
+-
+  pages: 2.jpg
+-
+  pages: 3.jpg
+-
+  pages: 4.jpg
+-
+  pages: 7.jpg
+-
+  pages: 9.jpg

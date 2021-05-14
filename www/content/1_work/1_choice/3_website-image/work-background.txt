@@ -1,0 +1,9 @@
+Media: laptop
+
+----
+
+Title: website-image
+
+----
+
+images: choice-home-comp.jpg

@@ -1,0 +1,24 @@
+Media: poster
+
+----
+
+Text: Posters in providers' offices are one small way Beacon reminds them that Beacon stands for doing the right thing.
+
+----
+
+Title: posters
+
+----
+
+Idnumber: 1
+
+----
+
+pages:
+
+-
+  pages: 1.png
+-
+  pages: 2.png
+-
+  pages: 4.png

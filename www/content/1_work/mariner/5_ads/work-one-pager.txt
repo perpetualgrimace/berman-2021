@@ -1,0 +1,24 @@
+Title: ads
+
+----
+
+Text: About these ads
+
+----
+
+Media: poster
+
+----
+
+Idnumber: 1
+
+----
+
+pages:
+
+-
+  pages: 1.jpg
+-
+  pages: 2.jpg
+-
+  pages: 3.jpg

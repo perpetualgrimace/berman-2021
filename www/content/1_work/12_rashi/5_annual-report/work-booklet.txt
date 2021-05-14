@@ -1,0 +1,28 @@
+Title: Annual Report
+
+----
+
+Text: The look and energy of the refreshed Rashi messaging and design was carried over to materials for current families, donors, and other supporters of the school.
+
+----
+
+Media: pamphlet
+
+----
+
+Idnumber: 2
+
+----
+
+pages:
+
+-
+  pages: 01.jpg
+-
+  pages: 02.jpg
+-
+  pages: 04.jpg
+-
+  pages: 11.jpg
+-
+  pages: 13.jpg

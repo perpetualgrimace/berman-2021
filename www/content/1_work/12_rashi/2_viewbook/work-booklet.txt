@@ -1,0 +1,32 @@
+Title: Viewbook
+
+----
+
+Text: A viewbook and updated web site invite parents to consider not only their child’s schooling, but the person she will become.
+
+----
+
+Media: pamphlet
+
+----
+
+Idnumber: 1
+
+----
+
+pages:
+
+-
+  pages: 01.jpg
+-
+  pages: 02.jpg
+-
+  pages: 03.jpg
+-
+  pages: 04.jpg
+-
+  pages: 05.jpg
+-
+  pages: 14.jpg
+-
+  pages: 15.jpg

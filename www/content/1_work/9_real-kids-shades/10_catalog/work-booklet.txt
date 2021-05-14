@@ -1,0 +1,30 @@
+Title: Catalog
+
+----
+
+Text: Marketing to the trade included brochures, one-pagers, and a new tradeshow display.
+
+----
+
+Media: pamphlet
+
+----
+
+Idnumber: 2
+
+----
+
+pages:
+
+-
+  pages: 1.jpg
+-
+  pages: 2.jpg
+-
+  pages: 3.jpg
+-
+  pages: 4.jpg
+-
+  pages: 5.jpg
+-
+  pages: 6.jpg

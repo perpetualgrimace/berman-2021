@@ -1,0 +1,32 @@
+Title: Brochure
+
+----
+
+Text: Print collateral introduced the brand to dealers and distributors beyond the shrinking base of audio stores, bringing the brand into design-focused retailers.
+
+----
+
+Media: landscapebrochure
+
+----
+
+Idnumber: 1
+
+----
+
+pages:
+
+-
+  pages: 1.jpg
+-
+  pages: 2.jpg
+-
+  pages: 3.jpg
+-
+  pages: 4.jpg
+-
+  pages: 5.jpg
+-
+  pages: 6.jpg  
+-
+  pages: 7.jpg
