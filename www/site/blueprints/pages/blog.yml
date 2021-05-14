@@ -9,29 +9,6 @@ fields:
     extends: title
     width: 2/3
 
-  toggleMeta:
-    label: Toggle metadata
-    type: fieldtoggle
-    width: 1/3
-    help: View authors, series, tags, etc.
-    on:
-      - authors
-      - date
-      - series
-      - description
-      - tags
-      - hashtag
-      - heroImg
-      - thumbImg
-      - socialImg
-      - linkedinImg
-      - nextImg
-      - byline
-      - related_manual
-      - seriesNum
-    off: text
-    default: false
-
   line:
     type: line
 
@@ -60,7 +37,7 @@ fields:
   #   limit: 10
   #   width: 1/2
   #   fields:
-  #     page:
+  #     pages:
   #       type: select
   #       options: visibleSiblings
 
@@ -68,7 +45,3 @@ fields:
     label: Blog Content
     type: markdown
     required: true
-
-  # revisionsLine: revisionsLine
-  # revisionsToggle: revisionsToggle
-  # revisions: revisions

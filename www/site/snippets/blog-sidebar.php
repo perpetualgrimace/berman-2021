@@ -2,7 +2,8 @@
 
 // variables
 $limit   = 5;
-$series  = relatedpages($Options = ['searchField' => 'Series', 'baseURL' => 'blog'])->flip()->limit($limit);
+// $series  = relatedpages($Options = ['searchField' => 'Series', 'baseURL' => 'blog'])->flip()->limit($limit);
+$series = null;
 $authors = pages($page->authors()->toStructure());
 
 

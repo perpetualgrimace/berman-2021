@@ -16,7 +16,3 @@ fields:
     required: true
     width: 2/3
   videoList: videoList
-
-  # revisionsLine: revisionsLine
-  # revisionsToggle: revisionsToggle
-  # revisions: revisions

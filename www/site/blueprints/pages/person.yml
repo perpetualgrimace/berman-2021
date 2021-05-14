@@ -23,15 +23,6 @@ fields:
     options:
       male: male
       female: female
-  approval:
-    label: Review Stage
-    type: select
-    required: false
-    width: 1/4
-    columns: 1
-    options:
-      ready: Ready for review
-      approved: Approved by Jeff
   text:
     label: 'Bio:'
     type: markdown
@@ -52,7 +43,3 @@ fields:
       <li><b>person.jpg</b> <small>(490px × 490px)</small></li>
 
       All images should be optimized at <a href="http://tinypng.org" target="_blank">tinypng.org</a> before uploading.
-
-  # revisionsLine: revisionsLine
-  # revisionsToggle: revisionsToggle
-  # revisions: revisions

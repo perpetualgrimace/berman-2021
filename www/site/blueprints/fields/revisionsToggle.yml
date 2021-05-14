@@ -1,4 +1,0 @@
-label: Show page versions
-type: fieldtoggle
-on: revisions
-default: false

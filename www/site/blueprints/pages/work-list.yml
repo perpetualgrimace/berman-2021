@@ -18,7 +18,7 @@ fields:
     type: structure
     style: table
     fields:
-      image:
+      images:
         label: image
         type: image
       client:
@@ -26,7 +26,7 @@ fields:
         required: true
       caption:
         label: caption
-      page:
+      pages:
         label: link
         type: select
         options: children

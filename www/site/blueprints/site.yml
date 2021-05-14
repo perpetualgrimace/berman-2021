@@ -52,7 +52,3 @@ fields:
   nextImg:
     label: next
     width: 1/4
-
-  # revisionsLine: revisionsLine
-  # revisionsToggle: revisionsToggle
-  # revisions: revisions

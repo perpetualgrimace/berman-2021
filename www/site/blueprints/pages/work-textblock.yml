@@ -15,7 +15,3 @@ fields:
     label: Subhead (optional)
     width: 2/3
   text: defaultText
-
-  # revisionsLine: revisionsLine
-  # revisionsToggle: revisionsToggle
-  # revisions: revisions

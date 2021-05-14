@@ -9,6 +9,5 @@ return [
   'cache.ignore' => [
     'search',
     'sitemap'
-  ],
-  'cachebuster' => 'true'
+  ]
 ];

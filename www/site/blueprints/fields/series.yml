@@ -4,5 +4,5 @@ options: query
 width: 2/3
 help: Add new series under <a href="../../series/edit">blog/series</a>
 query:
-  page: blog/series
+  pages: blog/series
   fetch: children

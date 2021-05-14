@@ -11,24 +11,6 @@ fields:
   line1:
     type: line
 
-  showContactInfo:
-    label: Toggle contact info
-    type: fieldtoggle
-    on:
-      - labelName
-      - labelEmail
-      - labelText
-      - submitButton
-      - phone
-      - email
-      - address1
-      - address2
-      - twitter
-      - facebook
-      - instagram
-      - linkedin
-    default: false
-
   labelName:
     label: Name label
     width: 1/4
@@ -77,18 +59,6 @@ fields:
   line2:
     type: line
 
-  showUI:
-    label: Toggle UI messages
-    type: fieldtoggle
-    on:
-      error_name
-      errorText
-      error_email
-      error_email_invalid
-      success
-      fail
-    default: false
-
   error_name:
     label: No name
     width: 1/2
@@ -109,7 +79,3 @@ fields:
     label: Catastrophic failure
     type: markdown
     width: 1/2
-
-  # revisionsLine: revisionsLine
-  # revisionsToggle: revisionsToggle
-  # revisions: revisions

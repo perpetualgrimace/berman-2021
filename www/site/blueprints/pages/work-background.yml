@@ -10,4 +10,4 @@ options:
 fields:
   title:
     label: Section title
-  image: backgroundImg
+  images: backgroundImg
