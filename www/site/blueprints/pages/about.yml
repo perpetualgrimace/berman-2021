@@ -6,18 +6,22 @@ options:
   url: false
 
 fields:
-  headline: fields/headline
-  heroImg: fields/heroImg
-  socialImg: socialImg
-  text: defaultText
-  quote1: quote
+  headline:
+    extends: fields/headline
+    width: 1/2
+  heroImg:
+    extends: fields/heroImg
+    width: 1/2
+  # socialImg: fields/socialImg
+  text: fields/defaultText
+
   clients:
     extends: fields/defaultText
     label: Clients text
-  quote2: quote
 
   principlesHeadline:
     label: Principles headline
+    type: text
   integrity:
     type: textarea
     label: Integrity text

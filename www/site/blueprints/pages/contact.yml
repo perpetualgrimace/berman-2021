@@ -10,7 +10,7 @@ fields:
 
   headline: fields/headline
   heroImg: fields/heroImg
-  socialImg: socialImg
+  socialImg: fields/socialImg
 
   line1:
     type: line

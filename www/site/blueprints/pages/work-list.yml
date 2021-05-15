@@ -10,7 +10,7 @@ options:
 fields:
   headline: fields/headline
   heroImg: fields/heroImg
-  socialImg: socialImg
+  socialImg: fields/socialImg
 
   featuredWork:
     label: Home page featured work

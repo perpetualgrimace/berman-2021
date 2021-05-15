@@ -1,5 +1,5 @@
 label: Quote
 type: select
-options: query
-query:
-  pages: quotes
+# options: query
+# query:
+#   pages: quotes

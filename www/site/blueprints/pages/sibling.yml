@@ -5,7 +5,7 @@ pages: false
 fields:
   headline: fields/headline
   heroImg: fields/heroImg
-  socialImg: socialImg
+  socialImg: fields/socialImg
   text:
     extends: fields/defaultText
     width: 2/3

@@ -6,8 +6,8 @@ icon: shopping-bag
 fields:
   headline: fields/headline
   heroImg: fields/heroImg
-  socialImg: socialImg
-  text: defaultText
+  socialImg: fields/socialImg
+  text: fields/defaultText
 
   servicesHeadline:
     label: Services headline
