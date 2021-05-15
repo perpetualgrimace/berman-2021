@@ -15,8 +15,8 @@ fields:
     extends: fields/heroImg
     label: Default blog hero image
 
-  ctaLine: fields/ctaLine
-  ctaHelp: fields/ctaHelp
-  cta: fields/cta
-  ctaButton: fields/ctaButton
-  ctaLink: fields/ctaLink
+  # ctaLine: fields/ctaLine
+  # ctaHelp: fields/ctaHelp
+  # cta: fields/cta
+  # ctaButton: fields/ctaButton
+  # ctaLink: fields/ctaLink
