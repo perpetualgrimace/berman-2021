@@ -1,9 +1,7 @@
 <?
 
-if ($page->heroImg() != '') {
-  $img = $page->image($page->heroImg());
-} elseif ($page->image($site->heroImg())) {
-  $img = $page->image($site->heroImg());
+if ($page->heroImg()->toFile()) {
+  $img = $page->heroImg()->toFile();
 } else {
   $img = NULL;
 }

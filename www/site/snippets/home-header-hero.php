@@ -1,7 +1,7 @@
 <?
 
-if ($page->heroImg() != '') {
-  $img = $page->images($page->heroImg()->yaml()[0]);
+if ($page->heroImg()->toFile()) {
+  $img = $page->heroImg()->toFile();
 } else {
   $img = null;
 }
@@ -9,5 +9,5 @@ if ($page->heroImg() != '') {
 ?>
 
 <div class="hero u-margin-top-off">
-  <img class="hero-img home-hero-img" src="<?= $img ?>" draggable="false" loading="lazy" />
+  <img class="hero-img home-hero-img" src="<?= $img->url() ?>" draggable="false" loading="lazy" />
 </div>

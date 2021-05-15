@@ -2,16 +2,16 @@
 
 $blog = $pages->find('blog');
 
-if ($page->heroImg() != '') {
-  $img = $page->image($page->heroImg());
-} elseif ($page->image($site->heroImg())) {
-  $img = $page->image($site->heroImg());
-} elseif ($page->intendedTemplate() == 'blog' || $page->intendedTemplate() == 'blog.140') {
-  $img = $blog->image($blog->heroImg());
-} elseif ($page->parent()->image($page->parent()->heroImg())) {
-  $img = $page->parent()->image($page->parent()->heroImg());
-} elseif ($page->parent()->image($site->heroImg())) {
-  $img = $page->parent()->image($site->heroImg());
+if ($page->heroImg()->toFile()) {
+  $img = $page->heroImg()->toFile();
+// } elseif ($page->images($site->heroImg()->yaml()[0])) {
+//   $img = $page->images($site->heroImg()->yaml()[0]);
+// } elseif ($page->intendedTemplate() == 'blog' || $page->intendedTemplate() == 'blog.140') {
+//   $img = $blog->images($blog->heroImg()->yaml()[0]);
+// } elseif ($page->parent()->images($page->parent()->heroImg()->yaml()[0])) {
+//   $img = $page->parent()->images($page->parent()->heroImg()->yaml()[0]);
+// } elseif ($page->parent()->images($site->heroImg()->yaml()[0])) {
+//   $img = $page->parent()->images($site->heroImg()->yaml()[0]);
 } else {
   $img = NULL;
 }

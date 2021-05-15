@@ -1,19 +1,35 @@
 title: Blog Directory
 icon: linkedin
 preset: page
-changeStatus: false
-pages:
-  sort: flip
-  sortable: true
-  template: blog-group
+pages: false
 
 fields:
   headline:
     extends: fields/headline
     label: 'Blog title:'
+    width: 1/2
   heroImg:
     extends: fields/heroImg
     label: Default blog hero image
+    width: 1/2
+  articles:
+    label: List of external articles
+    help: Note — the articles will be displayed in the order in which they appear here
+    type: structure
+    fields:
+      title:
+        label: Article title
+        type: text
+      link:
+        label: Article URL
+        type: text
+        note: make sure https:// is included in front of the link
+      date:
+        label: Date posted
+        type: text
+  blogButtonText:
+    type: text
+    label: More text
 
   # ctaLine: fields/ctaLine
   # ctaHelp: fields/ctaHelp
