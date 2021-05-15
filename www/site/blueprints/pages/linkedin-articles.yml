@@ -9,7 +9,7 @@ pages:
 
 fields:
   headline:
-    extends: headline
+    extends: fields/headline
     label: 'Blog title:'
   heroImg:
     extends: fields/heroImg
