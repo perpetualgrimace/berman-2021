@@ -1,21 +1,8 @@
+<? /* = js('assets/builds/bundle.js') */ ?>
+
 <script>
 
-  // async
-  function downloadJSAtOnload() {
-    var element = document.createElement("script");
-    element.src = "<?= $site->url()?>/assets/build/js/main.min.js";
-    document.body.appendChild(element);
-  }
-  if (window.addEventListener) {
-    window.addEventListener("load", downloadJSAtOnload, false);
-  } else if (window.attachEvent) {
-    window.attachEvent("onload", downloadJSAtOnload);
-  } else {
-    window.onload = downloadJSAtOnload;
-  }
-
   // typekit
-
   (function(d) {
     var config = {
       kitId: 'xol1ufh',
