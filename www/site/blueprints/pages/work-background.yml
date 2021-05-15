@@ -1,13 +1,19 @@
 title: Background Image
+preset: page
 pages: false
 preview: parent
 icon: picture-o
-files:
-  width: 1920
 options:
-  url: false
+  changeTemplate:
+    - work-background
+    - work-booklet
+    - work-image
+    - work-logo
+    - work-one-pager
+    - work-screenshots
+    - work-slideshow
+    - work-textblock
+    - work-video
 
 fields:
-  title:
-    label: Section title
-  images: backgroundImg
+  images: fields/backgroundImg

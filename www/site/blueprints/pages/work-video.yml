@@ -1,9 +1,19 @@
 title: Video
+preset: page
 pages: false
 preview: parent
 icon: youtube-play
 options:
-  url: false
+  changeTemplate:
+    - work-background
+    - work-booklet
+    - work-image
+    - work-logo
+    - work-one-pager
+    - work-screenshots
+    - work-slideshow
+    - work-textblock
+    - work-video
 
 fields:
   title:
@@ -15,4 +25,4 @@ fields:
     toolbar: false
     required: true
     width: 2/3
-  videoList: videoList
+  videoList: fields/videoList

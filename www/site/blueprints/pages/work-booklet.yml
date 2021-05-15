@@ -1,20 +1,26 @@
 title: Booklet
+preset: page
 pages: false
 preview: parent
 icon: book
 options:
-  url: false
+  changeTemplate:
+    - work-background
+    - work-booklet
+    - work-image
+    - work-logo
+    - work-one-pager
+    - work-screenshots
+    - work-slideshow
+    - work-textblock
+    - work-video
 
 fields:
-  title:
-    extends: title
-    label: Section title
-    width: 1/2
-  idNumber: id
+  idNumber: fields/id
 
   text:
     extends: fields/defaultText
     toolbar: false
     label: Caption
     width: 2/3
-  pages: pages
+  pages: fields/pages

@@ -1,9 +1,10 @@
 title: Screenshots
+preset: page
 pages: false
 preview: parent
 icon: th-large
 options:
-  url: false
+  changeTemplate: true
 
 fields:
   title:
@@ -22,4 +23,4 @@ fields:
     default: multiple
     width: 1/2
 
-  screenshots: screenshots
+  screenshots: fields/screenshots

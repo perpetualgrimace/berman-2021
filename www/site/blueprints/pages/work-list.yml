@@ -1,12 +1,11 @@
 title: Work Directory
-icon: briefcase
 preset: page
+icon: briefcase
 pages:
   sortable: true
   template: work
 options:
-  template: false
-  url: false
+  changeTemplate: true
 
 fields:
   headline:

@@ -1,17 +1,14 @@
 title: Text block
+preset: page
 pages: false
 files: false
 preview: parent
 icon: align-left
 options:
-  url: false
+  changeTemplate: true
 
 fields:
-  title:
-    extends: title
-    label: Section title
-    width: 1/3
   subhead:
     label: Subhead (optional)
-    width: 2/3
+    type: text
   text: fields/defaultText

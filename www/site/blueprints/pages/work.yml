@@ -1,5 +1,6 @@
 title: Work Page
 icon: briefcase
+preset: page
 pages:
   sortable: true
   template:
@@ -18,18 +19,19 @@ fields:
     extends: fields/headline
     label: Micro headline
     help: Should mention the category and be as concise as possible. Used on work thumbnails and 'next up' links.
+    width: 1
 
   heroImg:
     extends: fields/heroImg
     width: 1/3
   thumbImg:
-    extends: workThumb
+    extends: fields/workThumb
     width: 1/3
   nextImg:
-    extends: nextImg
+    extends: fields/nextImg
     width: 1/3
-  logoImgSvg: logoImgSvg
-  logoImgPng: logoImgPng
+  logoImgSvg: fields/logoImgSvg
+  logoImgPng: fields/logoImgPng
   tags:
     label: Tags
     type: tags

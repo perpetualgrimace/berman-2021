@@ -1,17 +1,29 @@
 title: Logo
+preset: page
 pages: false
 preview: parent
 icon: apple
+options:
+  changeTemplate:
+    - work-background
+    - work-booklet
+    - work-image
+    - work-logo
+    - work-one-pager
+    - work-screenshots
+    - work-slideshow
+    - work-textblock
+    - work-video
 
 fields:
   title:
     label: Title
     type: text
   logoImgSvg:
-    extends: logoImgSvg
+    extends: fields/logoImgSvg
     width: 1/2
   logoImgPng:
-    extends: logoImgPng
+    extends: fields/logoImgPng
     width: 1/2
   text:
     label: 'Caption:'

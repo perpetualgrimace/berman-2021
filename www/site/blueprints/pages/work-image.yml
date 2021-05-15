@@ -1,18 +1,24 @@
 title: Image + caption
+preset: page
 pages: false
 preview: parent
 icon: file-image-o
 options:
-  url: false
+  changeTemplate:
+    - work-background
+    - work-booklet
+    - work-image
+    - work-logo
+    - work-one-pager
+    - work-screenshots
+    - work-slideshow
+    - work-textblock
+    - work-video
 
 fields:
-  title:
-    extends: title
-    label: Section title
-
   text:
     extends: fields/defaultText
     toolbar: false
     label: Caption
     width: 2/3
-  img: workImg
+  img: fields/workImg

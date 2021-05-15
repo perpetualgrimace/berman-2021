@@ -1,13 +1,14 @@
 title: Slideshow
+preset: page
 pages: false
 preview: parent
 icon: exchange
 options:
-  url: false
+  changeTemplate: true
 
 fields:
   title:
     extends: title
     label: section title
     width: 1
-  slides: slides
+  slides: fields/slides

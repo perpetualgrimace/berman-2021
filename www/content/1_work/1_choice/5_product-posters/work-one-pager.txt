@@ -6,13 +6,13 @@ Text: The new brand message and design quickly gained traction. Subscriptions, w
 
 ----
 
-Pages: 
+Pages:
 
-- 
+-
   pages: 1.jpg
-- 
+-
   pages: 2.jpg
-- 
+-
   pages: 3.jpg
 
 ----
