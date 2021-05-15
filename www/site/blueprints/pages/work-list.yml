@@ -1,5 +1,6 @@
 title: Work Directory
 icon: briefcase
+preset: page
 pages:
   sortable: true
   template: work
@@ -8,30 +9,34 @@ options:
   url: false
 
 fields:
-  headline: fields/headline
-  heroImg: fields/heroImg
-  socialImg: fields/socialImg
+  headline:
+    extends: fields/headline
+    width: 1
+  heroImg:
+    extends: fields/heroImg
+    width: 1
+  # socialImg: fields/socialImg
 
-  featuredWork:
-    label: Home page featured work
-    type: structure
-    style: table
-    fields:
-      images:
-        label: image
-        type: files
-      client:
-        label: client name
-        required: true
-      caption:
-        label: caption
-      pages:
-        label: link
-        type: select
-        options: children
+  # featuredWork:
+  #   label: Home page featured work
+  #   type: structure
+  #   style: table
+  #   fields:
+  #     images:
+  #       label: image
+  #       type: files
+  #     client:
+  #       label: client name
+  #       required: true
+  #     caption:
+  #       label: caption
+  #     pages:
+  #       label: link
+  #       type: select
+  #       options: children
 
-  ctaLine: fields/ctaLine
-  ctaHelp: fields/ctaHelp
-  cta: fields/cta
-  ctaButton: fields/ctaButton
-  ctaLink: fields/ctaLink
+  # ctaLine: fields/ctaLine
+  # ctaHelp: fields/ctaHelp
+  # cta: fields/cta
+  # ctaButton: fields/ctaButton
+  # ctaLink: fields/ctaLink

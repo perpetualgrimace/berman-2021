@@ -2,21 +2,33 @@ Title: Work
 
 ----
 
-heroImg:
+Headline: Answers to “Why should I care?”
+
+----
+
+Heroimg:
 
 - header.jpg
 
 ----
 
-Cta:
+Socialimg: 
 
 ----
 
-CtaButton:
+Featuredwork: 
 
 ----
 
-CtaLink:
+Cta: 
+
+----
+
+Ctabutton: 
+
+----
+
+Ctalink: 
 
 ----
 

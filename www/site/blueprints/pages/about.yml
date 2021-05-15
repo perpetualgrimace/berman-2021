@@ -1,6 +1,6 @@
 title: About page template
+preset: page
 pages: false
-files: true
 icon: info-circle
 options:
   url: false
