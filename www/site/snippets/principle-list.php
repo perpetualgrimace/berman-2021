@@ -4,7 +4,7 @@ $principles = ['integrity', 'ability', 'spirit'];
 
 ?>
 
-<section class="section u-margin-bottom">
+<section class="section">
   <div class="g-columns u-center">
 
     <div class="g-col">

@@ -4,7 +4,7 @@ $logos = $pages->find('about/logos')->images()->filterBy('extension', 'svg');
 
 ?>
 
-<section class="section">
+<section class="section u-padding-top-off u-padding-bottom-off">
   <div class="g-columns u-left">
 
     <div class="g-col g-8 font-md u-margins-auto u-left-center">
