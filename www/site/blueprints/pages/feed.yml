@@ -10,7 +10,7 @@ options:
 
 fields:
   title: title
-  headline: headline
+  headline: fields/headline
   description:
     extends: description
     label: Blog description

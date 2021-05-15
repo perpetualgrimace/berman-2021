@@ -9,8 +9,8 @@ fields:
     help: edit contact metadata on the site-metadata page instead
 
   title: title
-  headline: headline
-  heroImg: heroImg
+  headline: fields/headline
+  heroImg: fields/heroImg
   socialImg: socialImg
 
   line1:

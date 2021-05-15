@@ -3,7 +3,7 @@ pages: false
 
 fields:
   title: title
-  headline: headline
+  headline: fields/headline
   text: defaultText
 
   ctaLine: ctaLine

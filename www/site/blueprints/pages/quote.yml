@@ -14,5 +14,5 @@ fields:
     width: 1/2
   quoteImg: quoteImg
   text:
-    extends: defaultText
+    extends: fields/defaultText
     label: The quote

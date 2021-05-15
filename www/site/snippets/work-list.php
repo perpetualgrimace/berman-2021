@@ -4,9 +4,9 @@
 $works = $pages->find('work')->children()->listed();
 
 // limit works on home page
-if ($page->isHomePage()) {
-  $works = $works->limit(12);
-}
+// if ($page->isHomePage()) {
+//   $works = $works->limit(12);
+// }
 
 ?>
 

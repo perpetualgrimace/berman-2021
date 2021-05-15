@@ -4,7 +4,7 @@ style: table
 fields:
   screenshot:
     label: screenshot
-    type: image
+    type: files
     required: true
   link:
     label: link (optional but encouraged)

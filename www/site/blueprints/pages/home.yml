@@ -1,30 +1,58 @@
 title: Home page template
-pages: false
+preset: page
 files: true
 icon: home
-options:
-  status: false
+changeStatus: false
+delete: false
+pages: false
 
 fields:
   title: title
-  headline: headline
+  headline:
+    extends: fields/headline
+    width: 1
   subhead:
     type: textarea
-    label: Subhead
+    label: Subhead (optional)
     toolbar: false
     width: 1/2
-  heroImg: heroImg
+    buttons: false
+  heroImg: fields/heroImg
   text:
-    extends: defaultText
+    extends: fields/defaultText
     label: Intro text
-  quote1: quote
-  services:
-    extends: defaultText
-    label: Services text
-  quote2: quote
 
-  ctaLine: ctaLine
-  ctaHelp: ctaHelp
-  cta: cta
-  ctaButton: ctaButton
-  ctaLink: ctaLink
+  workHeading:
+    type: text
+    label: Work heading
+    # width: 3/4
+  # workLimit:
+  #   type: number
+  #   label: Work limit
+  #   min: 1
+  #   width: 1/4
+  blogHeading:
+    type: text
+    label: Blog heading
+    width: 2/3
+  blogButtonText:
+    type: text
+    label: More text
+    width: 1/3
+  # blogLimit:
+  #   type: number
+  #   label: Blog post limit
+  #   min: 1
+  #   required: true
+  #   width: 1/4
+
+
+  # services:
+  #   extends: fields/defaultText
+  #   label: Services text
+
+  # ctaLine: fields/ctaLine
+  # ctaHelp: fields/ctaHelp
+  # cta: fields/cta
+  # ctaButton: fields/ctaButton
+  # ctaLink: fields/ctaLink

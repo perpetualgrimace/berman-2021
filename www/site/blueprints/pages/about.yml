@@ -7,13 +7,13 @@ options:
 
 fields:
   title: title
-  headline: headline
-  heroImg: heroImg
+  headline: fields/headline
+  heroImg: fields/heroImg
   socialImg: socialImg
   text: defaultText
   quote1: quote
   clients:
-    extends: defaultText
+    extends: fields/defaultText
     label: Clients text
   quote2: quote
 

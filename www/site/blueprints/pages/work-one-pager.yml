@@ -13,7 +13,7 @@ fields:
   idNumber: id
 
   text:
-    extends: defaultText
+    extends: fields/defaultText
     toolbar: false
     label: Caption
     width: 2/3

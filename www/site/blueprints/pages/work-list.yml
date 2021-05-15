@@ -9,8 +9,8 @@ options:
 
 fields:
   title: title
-  headline: headline
-  heroImg: heroImg
+  headline: fields/headline
+  heroImg: fields/heroImg
   socialImg: socialImg
 
   featuredWork:
@@ -20,7 +20,7 @@ fields:
     fields:
       images:
         label: image
-        type: image
+        type: files
       client:
         label: client name
         required: true

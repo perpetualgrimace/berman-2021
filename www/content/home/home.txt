@@ -1,16 +1,14 @@
-Title: Home
-
-----
-
 Headline: Good ideas shouldn’t fail for stupid reasons.
 
 ----
 
-Heroimg: hero@2x.jpg
+Subhead: 
 
 ----
 
-Subhead:
+Heroimg:
+
+- hero@2x.jpg
 
 ----
 
@@ -26,19 +24,31 @@ Since 2002, Berman Creative has generated go-to-market strategies and branding f
 
 ----
 
+Workheading: Some of our work
+
+----
+
+Blogheading: Our latest on LinkedIn
+
+----
+
+Blogbuttontext: More articles
+
+----
+
+Worklimit: 12
+
+----
+
+Bloglimit: 5
+
+----
+
 Cta: We've helped more than 60 startups go to market.
 
 ----
 
 Ctabutton: How can we help you?
-
-----
-
-workHeading: Some of our work
-
-----
-
-blogHeading: Our latest on LinkedIn
 
 ----
 

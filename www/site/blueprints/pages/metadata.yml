@@ -2,6 +2,8 @@ title: Metadata
 icon: template
 status:
   draft: Hidden
+changeStatus: false
+
 fields:
   sitetitle:
     label: Site title

@@ -11,7 +11,7 @@ fields:
     label: Section title
 
   text:
-    extends: defaultText
+    extends: fields/defaultText
     toolbar: false
     label: Caption
     width: 2/3

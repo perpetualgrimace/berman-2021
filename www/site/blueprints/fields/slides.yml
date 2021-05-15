@@ -5,6 +5,6 @@ style: table
 fields:
   slide:
     label: slide
-    type: image
+    type: files
     default: youtube
     required: true

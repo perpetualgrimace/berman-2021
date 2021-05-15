@@ -17,7 +17,7 @@ fields:
   series: series
   seriesNum: seriesNum
 
-  heroImg: heroImg
+  heroImg: fields/heroImg
   thumbImg: blogThumb
   socialImg:
     extends: socialImg

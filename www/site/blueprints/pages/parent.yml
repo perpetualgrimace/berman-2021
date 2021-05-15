@@ -8,11 +8,11 @@ pages: true
 
 fields:
   title: title
-  headline: headline
-  heroImg: heroImg
+  headline: fields/headline
+  heroImg: fields/heroImg
   socialImg: socialImg
   text:
-    extends: defaultText
+    extends: fields/defaultText
     width: 2/3
   sidebarTitle:
     label: Sidebar Title
