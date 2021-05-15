@@ -19,3 +19,7 @@ body.work-list section {
 body.work-list footer {
   margin-top: calc(#{$stroke-width} - #{$gutter}) !important;
 }
+
+body.work.depth-2 footer {
+  margin-top: $stroke-width !important;
+}
