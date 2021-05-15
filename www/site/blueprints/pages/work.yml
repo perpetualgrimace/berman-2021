@@ -21,7 +21,7 @@ fields:
     help: Should mention the category and be as concise as possible. Used on work thumbnails and 'next up' links.
 
   heroImg:
-    extends: heroImg
+    extends: fields/heroImg
     width: 1/3
   thumbImg:
     extends: workThumb

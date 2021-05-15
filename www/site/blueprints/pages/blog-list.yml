@@ -14,14 +14,14 @@ fields:
     extends: headline
     label: 'Blog title:'
   heroImg:
-    extends: heroImg
+    extends: fields/heroImg
     label: Default blog hero image
   berman140Thumb:
     extends: blogThumb
     label: Default Berman140 thumbnail
 
-  ctaLine: ctaLine
-  ctaHelp: ctaHelp
-  cta: cta
-  ctaButton: ctaButton
-  ctaLink: ctaLink
+  ctaLine: fields/ctaLine
+  ctaHelp: fields/ctaHelp
+  cta: fields/cta
+  ctaButton: fields/ctaButton
+  ctaLink: fields/ctaLink

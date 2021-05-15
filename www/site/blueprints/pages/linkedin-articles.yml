@@ -1,27 +1,23 @@
 title: Blog Directory
-icon: pencil
-options:
-  template: false
-  url: false
+icon: linkedin
+preset: page
+changeStatus: false
 pages:
   sort: flip
   sortable: true
   template: blog-group
 
 fields:
-  title: title
+  title: fields/title
   headline:
     extends: headline
     label: 'Blog title:'
   heroImg:
-    extends: heroImg
+    extends: fields/heroImg
     label: Default blog hero image
-  berman140Thumb:
-    extends: blogThumb
-    label: Default Berman140 thumbnail
 
-  ctaLine: ctaLine
-  ctaHelp: ctaHelp
-  cta: cta
-  ctaButton: ctaButton
-  ctaLink: ctaLink
+  ctaLine: fields/ctaLine
+  ctaHelp: fields/ctaHelp
+  cta: fields/cta
+  ctaButton: fields/ctaButton
+  ctaLink: fields/ctaLink

@@ -60,13 +60,13 @@ fields:
   #   label: Copyright
   #   type: textarea
 
-  # ctaLine: ctaLine
+  # ctaLine: fields/ctaLine
   # ctaHelp:
   #   extends: ctaHelp
   #   text: <h1>Default Call to Action</h1>
-  # cta: cta
-  # ctaButton: ctaButton
-  # ctaLink: ctaLink
+  # cta: fields/cta
+  # ctaButton: fields/ctaButton
+  # ctaLink: fields/ctaLink
 
   # imagesLine:
   #   type: line

@@ -98,7 +98,7 @@ fields:
     type: textarea
     width: 1/2
 
-  ctaLine: ctaLine
-  cta: cta
-  ctaButton: ctaButton
-  ctaLink: ctaLink
+  ctaLine: fields/ctaLine
+  cta: fields/cta
+  ctaButton: fields/ctaButton
+  ctaLink: fields/ctaLink

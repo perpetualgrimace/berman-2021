@@ -16,8 +16,8 @@ fields:
     toolbar: false
     width: 1/3
 
-  ctaLine: ctaLine
-  ctaHelp: ctaHelp
-  cta: cta
-  ctaButton: ctaButton
-  ctaLink: ctaLink
+  ctaLine: fields/ctaLine
+  ctaHelp: fields/ctaHelp
+  cta: fields/cta
+  ctaButton: fields/ctaButton
+  ctaLink: fields/ctaLink
