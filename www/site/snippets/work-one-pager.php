@@ -31,7 +31,7 @@ $jsDataAttr = 'data-js="one-pager-' . $section->idNumber() . '"';
       <? foreach($images as $image):
         // if using the slides field, use the image function and get a valid url
         if ($section->pages() != '') {
-          $imgUrl = $section->image($image->page())->url();
+          $imgUrl = $section->images($image->page())->url();
         }
         // otherwise, we collected the images through the images function, so just grab the url
         else {

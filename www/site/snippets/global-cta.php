@@ -4,12 +4,12 @@
 if($page->cta() != '') {
   $cta = $page->cta();
   $ctaText = $page->ctaText();
-  $ctaLink = $pages->find($page->ctaLink())->url();
+  // $ctaLink = $pages->find($page->ctaLink())->url();
   $ctaButtonText = $page->CtaButton();
 } else {
   $cta = $site->cta();
   $ctaText = $page->ctaText();
-  $ctaLink = $pages->find($site->ctaLink())->url();
+  // $ctaLink = $pages->find($site->ctaLink())->url();
   $ctaButtonText = $site->CtaButton();
 }
 
