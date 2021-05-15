@@ -15,8 +15,8 @@ $principles = ['integrity', 'ability', 'spirit'];
       $principleHeadline = ucfirst($principle);
     ?>
       <div class="g-col g-4">
-        <h3 class="heading"><?= $principleHeadline ?></h3>
-        <p class="font-md">
+        <h3 class="font-md"><?= $principleHeadline ?></h3>
+        <p class="font-sm">
           <?= $page->$principle() ?>
         </p>
       </div>
