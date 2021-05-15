@@ -8,7 +8,6 @@ options:
   url: false
 
 fields:
-  title: title
   headline: fields/headline
   heroImg: fields/heroImg
   socialImg: socialImg

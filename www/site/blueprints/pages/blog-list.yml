@@ -9,7 +9,6 @@ pages:
   template: blog-group
 
 fields:
-  title: title
   headline:
     extends: headline
     label: 'Blog title:'

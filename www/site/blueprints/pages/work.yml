@@ -14,7 +14,6 @@ pages:
     - 'work-slideshow'
 
 fields:
-  title: title
   headline:
     extends: headline
     label: Micro headline

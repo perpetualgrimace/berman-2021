@@ -4,7 +4,6 @@ files: true
 icon: shopping-bag
 
 fields:
-  title: title
   headline: fields/headline
   heroImg: fields/heroImg
   socialImg: socialImg

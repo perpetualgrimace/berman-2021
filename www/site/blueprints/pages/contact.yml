@@ -8,7 +8,6 @@ fields:
     label: this old contact form will be broken, do not make it visible
     help: edit contact metadata on the site-metadata page instead
 
-  title: title
   headline: fields/headline
   heroImg: fields/heroImg
   socialImg: socialImg

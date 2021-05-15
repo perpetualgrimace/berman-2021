@@ -7,7 +7,6 @@ delete: false
 pages: false
 
 fields:
-  title: title
   headline:
     extends: fields/headline
     width: 1

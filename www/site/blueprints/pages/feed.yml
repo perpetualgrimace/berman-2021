@@ -9,7 +9,6 @@ options:
   delete: false
 
 fields:
-  title: title
   headline: fields/headline
   description:
     extends: description
