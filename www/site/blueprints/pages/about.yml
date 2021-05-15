@@ -20,17 +20,17 @@ fields:
   principlesHeadline:
     label: Principles headline
   integrity:
-    type: markdown
+    type: textarea
     label: Integrity text
     toolbar: false
     width: 1/3
   ability:
-    type: markdown
+    type: textarea
     label: Ability text
     toolbar: false
     width: 1/3
   spirit:
-    type: markdown
+    type: textarea
     label: Spirit text
     toolbar: false
     width: 1/3

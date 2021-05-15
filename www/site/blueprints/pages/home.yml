@@ -9,7 +9,7 @@ fields:
   title: title
   headline: headline
   subhead:
-    type: markdown
+    type: textarea
     label: Subhead
     toolbar: false
     width: 1/2

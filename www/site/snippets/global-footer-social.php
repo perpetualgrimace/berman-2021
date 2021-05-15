@@ -12,7 +12,7 @@
   ?>
 
     <li class="footer-social-item">
-      <a class="footer-social-link footer-social-link-<?= $social ?>" href="http://<?= $social ?>.com/<?= $pages->find('contact')->$social() ?>">
+      <a class="footer-social-link footer-social-link-<?= $social ?>" href="http://<?= $social ?>.com/<?= $pages->find('metadata')->$social() ?>">
         <? snippet($snippet) ?><span class="u-screenreader"><?= $social ?></span>
       </a>
     </li>

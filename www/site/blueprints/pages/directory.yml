@@ -11,7 +11,7 @@ fields:
     width: 2/3
   text:
     label: 'Text:'
-    type: markdown
+    type: textarea
 
   ctaLine: ctaLine
   cta: cta

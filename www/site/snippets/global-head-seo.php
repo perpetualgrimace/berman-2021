@@ -1,11 +1,12 @@
 <?
 
 // for convenience
-$siteTitle     = $site->title();
+$meta          = $site->find('metadata');
+$siteTitle     = $meta->title();
 $pageTitle     = $page->title();
 $pageTemplate  = $page->intendedTemplate();
 $pageUrl       = $page->url();
-$twitterHandle = '@' . $pages->find('contact')->twitter();
+$twitterHandle = '@' . $meta->twitter();
 
 
 // tags
@@ -14,7 +15,7 @@ if($page->tags() != '') {
 } elseif($pageTemplate == 'berman.140') {
   $tags = 'Berman140';
 } else {
-  $tags = $site->keywords();
+  $tags = $meta->keywords();
 }
 
 
@@ -24,7 +25,7 @@ if($page->description() != '') {
 } elseif($pageTemplate == 'berman.140') {
   $description = 'Berman140 description';
 } else {
-  $description = $site->description();
+  $description = $meta->description();
 }
 
 

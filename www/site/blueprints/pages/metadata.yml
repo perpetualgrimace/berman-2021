@@ -1,0 +1,87 @@
+title: Metadata
+icon: template
+status:
+  draft: Hidden
+fields:
+  sitetitle:
+    label: Site title
+    width: 1/2
+    type: text
+  shorttitle:
+    label: Browser tab title
+    width: 1/2
+    type: text
+  keywords:
+    label: Keywords
+    type: tags
+    width: 1/2
+  description:
+    extends: fields/description
+    label: Default site description
+    width: 1/2
+
+  footer:
+    type: headline
+    numbered: false
+    label: Footer & contact
+  location:
+    label: Location
+    type: text
+    width: 1/2
+  email:
+    label: Email address
+    type: text
+    width: 1/2
+  twitter:
+    label: Twitter account
+    type: text
+    width: 1/4
+  facebook:
+    label: Facebook account
+    type: text
+    width: 1/4
+  instagram:
+    label: Instagram account
+    type: text
+    width: 1/4
+  linkedin:
+    label: Linkedin account
+    type: text
+    width: 1/4
+
+  # dropdownable:
+  #   label: Pages with dropdown menus
+  #   type: checkboxes
+  #   options: visibleChildren
+  #   width: 1/2
+  # copyright:
+  #   label: Copyright
+  #   type: textarea
+
+  # ctaLine: ctaLine
+  # ctaHelp:
+  #   extends: ctaHelp
+  #   text: <h1>Default Call to Action</h1>
+  # cta: cta
+  # ctaButton: ctaButton
+  # ctaLink: ctaLink
+
+  # imagesLine:
+  #   type: line
+  # imagesHeader:
+  #   type: info
+  #   text: >
+  #     <h2>Default image filenames:</h2>
+  #     <p>The CMS will search for an image matching the following filenames in a page's content folder if the corresponding filename is not provided for that page. <i>You probably don't want to change these.</i></p>
+  # heroImg:
+  #   label: hero
+  #   width: 1/4
+  # thumbImg:
+  #   label: thumbnail
+  #   width: 1/4
+  # socialImg:
+  #   label: social
+  #   width: 1/4
+  # nextImg:
+  #   label: next
+  #   width: 1/4

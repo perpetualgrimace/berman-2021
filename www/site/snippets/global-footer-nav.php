@@ -16,7 +16,7 @@ $items = $pages->listed();
     <li class="footer-nav-item">
       <a class="footer-link footer-nav-link<? e($item->isOpen(), ' is-active-pg') ?>" <? e( ($item->slug() == $page->slug()), 'aria-describedby="current"' ) ?> href="<? e( $item->isOpen() && ( $page->slug() == $item->slug() ), '#main', $item->url() ) ?>">
       <?= $item->uri(); if($item->uri() == 'about'): ?>
-        <span class="u-screenreader"> <?= $site->title() ?></span>
+        <span class="u-screenreader"> <?= $site->find('metadata')->sitetitle() ?></span>
       <? endif; ?>
       </a>
     </li>

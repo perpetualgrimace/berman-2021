@@ -25,7 +25,7 @@ fields:
       female: female
   text:
     label: 'Bio:'
-    type: markdown
+    type: textarea
   twitter:
     label: 'Twitter Handle'
     type: text

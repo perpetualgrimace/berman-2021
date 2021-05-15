@@ -43,5 +43,5 @@ fields:
 
   text:
     label: Blog Content
-    type: markdown
+    type: textarea
     required: true

@@ -16,4 +16,4 @@ fields:
   text:
     label: 'Caption:'
     required: true
-    type: markdown
+    type: textarea

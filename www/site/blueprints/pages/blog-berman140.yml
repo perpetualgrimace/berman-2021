@@ -26,7 +26,7 @@ fields:
           fetch: children
       response:
         label: Response
-        type: markdown
+        type: textarea
         tools:
           - italic
           - link

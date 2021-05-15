@@ -28,7 +28,7 @@ if ($page->isHomePage()) {
         <? endforeach ?>
       </ul>
 
-      <a class="button" href="<? e($page->isHomePage(), "blog", "https://www.linkedin.com/in/bermancreative/detail/recent-activity/posts/") ?>" target="<? if ($page->isHomePage()) {
+      <a class="button" href="<? e($page->isHomePage(), "blog", "https://linkedin.com/" . $site->find('metadata')->linkedin() . "/detail/recent-activity/posts/") ?>" target="<? if ($page->isHomePage()) {
         echo "_blank";
       } ?>">
         More articles

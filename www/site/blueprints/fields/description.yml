@@ -1,6 +1,6 @@
 label: Description
-type: markdown
-toolbar: hide
+type: textarea
+buttons: false
 help: Maximum of 150 characters, used for SEO and social media sharing.
 validate:
   max: 150

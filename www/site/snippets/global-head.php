@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta name="google-site-verification" content="DW8-i9WeMitc9uVPOORftYLAV_t7mmcEofpML_ngffM">
 
-  <title><?= $site->title() ?> | <?= $page->title() ?></title>
+  <title><?= $site->find('metadata')->shorttitle() ?> | <?= $page->title() ?></title>
 
   <?
 

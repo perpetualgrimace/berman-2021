@@ -3,6 +3,11 @@ pages: false
 icon: phone
 
 fields:
+  warning:
+    type: headline
+    label: this old contact form will be broken, do not make it visible
+    help: edit contact metadata on the site-metadata page instead
+
   title: title
   headline: headline
   heroImg: heroImg
@@ -73,9 +78,9 @@ fields:
     width: 1/2
   success:
     label: Success
-    type: markdown
+    type: textarea
     width: 1/2
   fail:
     label: Catastrophic failure
-    type: markdown
+    type: textarea
     width: 1/2

@@ -7,11 +7,11 @@ fields:
     required: false
   text:
     label: 'Intro Text:'
-    type: markdown
+    type: textarea
     width: 2/3
   quote:
     label: 'Optional Quote:'
-    type: markdown
+    type: textarea
     width: 1/3
 
 
@@ -25,40 +25,40 @@ fields:
 
   Slide1:
     label: 'Slide 1:'
-    type: markdown
+    type: textarea
     required: true
     width: 1/2
   Slide2:
     label: 'Slide 2:'
-    type: markdown
+    type: textarea
     required: true
     width: 1/2
   Slide3:
     label: 'Slide 3:'
-    type: markdown
+    type: textarea
     required: true
     width: 1/2
   Slide4:
     label: 'Slide 4:'
-    type: markdown
+    type: textarea
     required: true
     width: 1/2
   Slide5:
     label: 'Slide 5:'
-    type: markdown
+    type: textarea
     width: 1/2
   Slide6:
     label: 'Slide 6:'
-    type: markdown
+    type: textarea
     width: 1/2
   Slide7:
     label: 'Slide 7:'
-    type: markdown
+    type: textarea
     width: 1/2
 
   textblock:
     label: 'Relationships Text:'
-    type: markdown
+    type: textarea
     width: 3/4
   textblock_id:
     label: Anchor ID
@@ -67,35 +67,35 @@ fields:
 
   stage1:
     label: stage 1
-    type: markdown
+    type: textarea
     width: 1/2
   stage2:
     label: stage 2
-    type: markdown
+    type: textarea
     width: 1/2
   stage3:
     label: stage 3
-    type: markdown
+    type: textarea
     width: 1/2
   stage4:
     label: stage 4
-    type: markdown
+    type: textarea
     width: 1/2
   stage5:
     label: stage 5
-    type: markdown
+    type: textarea
     width: 1/2
   stage6:
     label: stage 6
-    type: markdown
+    type: textarea
     width: 1/2
   stage7:
     label: stage 7
-    type: markdown
+    type: textarea
     width: 1/2
   stage8:
     label: stage 8
-    type: markdown
+    type: textarea
     width: 1/2
 
   ctaLine: ctaLine

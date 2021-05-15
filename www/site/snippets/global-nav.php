@@ -33,7 +33,7 @@ $menutext = 'menu';
       <li class="nav-item<? e(in_array($item->uri(), $site->dropdownable()->yaml()), ' has-dropdown" aria-haspopup="true'); ?>">
         <a class="nav-link<? e($item->isOpen(), ' is-active-pg') ?> font-xs" <? e( ($item->slug() == $page->slug()), 'aria-describedby="current"' ) ?> href="<? e( $item->isOpen() && ( $page->slug() == $item->slug() ), '#main', $item->url() ) ?>">
         <?= $item->uri(); if($item->uri() == 'about'): ?>
-          <span class="u-screenreader"> <?= $site->title() ?></span>
+          <span class="u-screenreader"> <?= $site->find('metadata')->sitetitle() ?></span>
         <? endif; ?>
         </a>
 

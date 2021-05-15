@@ -16,7 +16,7 @@ fields:
     width: 2/3
   sidebarTitle:
     label: Sidebar Title
-    type: markdown
+    type: textarea
     toolbar: false
     width: 1/3
 

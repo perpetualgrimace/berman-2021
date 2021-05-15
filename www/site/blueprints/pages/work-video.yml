@@ -11,7 +11,7 @@ fields:
     label: Section title
   text:
     label: Caption
-    type: markdown
+    type: textarea
     toolbar: false
     required: true
     width: 2/3

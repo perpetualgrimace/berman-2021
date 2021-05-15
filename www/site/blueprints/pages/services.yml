@@ -17,7 +17,7 @@ fields:
     width: 1/4
   brandstrategyList:
     label: Brand strategy list
-    type: markdown
+    type: textarea
     toolbar: false
     width: 3/4
   brandAssetsTitle:
@@ -25,7 +25,7 @@ fields:
     width: 1/4
   brandAssetsList:
     label: Brand assets list
-    type: markdown
+    type: textarea
     toolbar: false
     width: 3/4
   brandExperiencesTitle:
@@ -33,7 +33,7 @@ fields:
     width: 1/4
   brandExperiencesList:
     label: Brand experiences list
-    type: markdown
+    type: textarea
     toolbar: false
     width: 3/4
 

@@ -7,8 +7,12 @@
 
       <!-- navigation -->
       <div class="footer-nav g-col">
-        <h2 class="u-margin-top font-lg">Berman Creative</h2>
-        <p class="font-xs u-margin-top-sm u-margin-bottom-sm">Boston, Massachusetts</p>
+        <h2 class="u-margin-top font-lg">
+          <?= $site->find('metadata')->sitetitle() ?>
+        </h2>
+        <p class="font-xs u-margin-top-sm u-margin-bottom-sm">
+          <?= $site->find('metadata')->location() ?>
+        </p>
       </div>
 
       <!-- contact -->

@@ -1,9 +1,9 @@
 <?
 
 // get contact info
-$phone = $pages->find('contact')->phone();
-$phoneSanitized = preg_replace('/[^0-9]/', '', $phone);
-$email = $pages->find('contact')->email();
+// $phone = $pages->find('contact')->phone();
+// $phoneSanitized = preg_replace('/[^0-9]/', '', $phone);
+$email = $pages->find('metadata')->email();
 
 ?>
 

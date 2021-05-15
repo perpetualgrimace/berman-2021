@@ -10,11 +10,11 @@ fields:
     width: 2/3
   text:
     label: 'Text:'
-    type: markdown
+    type: textarea
     width: 2/3
   quote:
     label: 'Optional Quote:'
-    type: markdown
+    type: textarea
     width: 1/3
 
   cta:
