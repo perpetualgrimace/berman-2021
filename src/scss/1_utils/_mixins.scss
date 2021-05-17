@@ -237,6 +237,7 @@
   display: inline-block;
   margin-top: 1.5em;
   padding: 0.6em 1.4em 0.425em 1.4em;
+  @include bold-font;
   font-size: $font-md;
   text-decoration: none !important;
   color: $text-color !important;
