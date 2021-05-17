@@ -18,7 +18,7 @@ $items = $pages->listed();
     <? foreach($items as $item): ?>
 
       <li class="header-nav-item">
-        <a class="header-nav-link font-sm<? e($item->isOpen(), ' is-active-pg') ?>" <? e( ($item->slug() == $page->slug()), 'aria-describedby="current"' ) ?> href="<? e( $item->isOpen() && ( $page->slug() == $item->slug() ), '#main', $item->url() ) ?>">
+        <a class="header-nav-link font-xs<? e($item->isOpen(), ' is-active-pg') ?>" <? e( ($item->slug() == $page->slug()), 'aria-describedby="current"' ) ?> href="<? e( $item->isOpen() && ( $page->slug() == $item->slug() ), '#main', $item->url() ) ?>">
         <?= $item->uri() ?>
         </a>
       </li>
